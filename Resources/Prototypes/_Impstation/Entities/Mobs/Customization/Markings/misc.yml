@@ -444,7 +444,11 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -456,7 +460,11 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -468,7 +476,11 @@
   bodyPart: LArm
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -480,7 +492,11 @@
   bodyPart: LHand
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -492,7 +508,11 @@
   bodyPart: RArm
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -504,7 +524,11 @@
   bodyPart: RHand
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -516,7 +540,11 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -528,7 +556,11 @@
   bodyPart: LFoot
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -540,7 +572,11 @@
   bodyPart: RLeg
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -552,7 +588,11 @@
   bodyPart: RFoot
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -628,7 +668,7 @@
         color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: dwarfmarkkangaroo
+    state: dwarfmarkkangaroolhand
   shader: unshaded
 
 - type: marking
@@ -1300,7 +1340,7 @@
   id: VitiligoHeadL
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human,  ]
+  speciesRestriction: [ Human,  Dwarf ]
   forcedColoring: true
   coloring:
     default:
