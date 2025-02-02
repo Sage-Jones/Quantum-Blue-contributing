@@ -11,6 +11,10 @@
   - type: Body
     prototype: Vox
     requiredLegs: 2
+  - type:  HumanoidAppearance
+    species: Vox
+    hideLayersOnEquip:
+    - HeadSide #imp
     #- type: VoxAccent # Not yet coded
   - type: Speech
     speechVerb: Vox
