@@ -21,6 +21,18 @@
         {
             "name": "equipped-INNERCLOTHING",
             "directions": 4
+        },
+        {
+            "name": "goblin_tusks_small",
+            "directions": 4
+        },
+        {
+            "name": "goblin_tusks_big",
+            "directions": 4
+        },
+        {
+            "name": "goblin_tusks_none",
+            "directions": 4
         }
     ]
 }
