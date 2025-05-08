@@ -1,50 +1,42 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "claw by Snavian. rest by crocodilecarousel (github) for Impstation",
+    "copyright": "Drawn by crocodilecarousel (github) for Impstation",
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
         {
-            "name": "chimeraf",
+            "name": "curly",
             "directions": 4
         },
         {
-            "name": "chimeram",
+            "name": "freaky",
             "directions": 4
         },
         {
-            "name": "claw",
+            "name": "highup",
             "directions": 4
         },
         {
-            "name": "glow",
+            "name": "long",
             "directions": 4
         },
         {
-            "name": "incision",
+            "name": "moon1",
             "directions": 4
         },
         {
-            "name": "star",
+            "name": "moon2",
             "directions": 4
         },
         {
-            "name": "twistingleftf",
+            "name": "short",
             "directions": 4
         },
         {
-            "name": "twistingleftm",
-            "directions": 4
-        },
-        {
-            "name": "twistingrightf",
-            "directions": 4
-        },
-        {
-            "name": "twistingrightm",
+            "name": "uneven",
             "directions": 4
         }
     ]
