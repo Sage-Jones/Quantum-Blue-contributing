@@ -1877,8 +1877,8 @@
 
 - type: marking
   id: HeadEarrings
-  bodyPart: HeadTop
-  markingCategory: HeadTop
+  bodyPart: HeadSide
+  markingCategory: HeadSide
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
   coloring:
     default:
@@ -1893,8 +1893,8 @@
 
 - type: marking
   id: HeadEarringsDrop
-  bodyPart: HeadTop
-  markingCategory: HeadTop
+  bodyPart: HeadSide
+  markingCategory: HeadSide
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
   coloring:
     default:
@@ -1909,8 +1909,8 @@
 
 - type: marking
   id: HeadEarringsWeights
-  bodyPart: HeadTop
-  markingCategory: HeadTop
+  bodyPart: HeadSide
+  markingCategory: HeadSide
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
   coloring:
     default:
