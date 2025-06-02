@@ -1,3 +1,5 @@
+# Quantum-Blue: Removed the ability for pierce damage to sever limbs, and raised
+# thresholds for all limbs to 100 slash and 150 blunt
 - type: entity
   abstract: true
   id: BaseHeadDV
@@ -5,11 +7,9 @@
   - type: BodyPart
     severThresholds:
     - types:
-        Piercing: 100
-    - types:
         Slash: 100
     - types:
-        Blunt: 100
+        Blunt: 150
 
 - type: entity
   abstract: true
@@ -18,11 +18,9 @@
   - type: BodyPart
     severThresholds:
     - types:
-        Piercing: 90
+        Slash: 100
     - types:
-        Slash: 55
-    - types:
-        Blunt: 90
+        Blunt: 150
 
 - type: entity
   abstract: true
@@ -31,11 +29,9 @@
   - type: BodyPart
     severThresholds:
     - types:
-        Piercing: 90
+        Slash: 100
     - types:
-        Slash: 40
-    - types:
-        Blunt: 90
+        Blunt: 150
 
 - type: entity
   abstract: true
@@ -44,11 +40,9 @@
   - type: BodyPart
     severThresholds:
     - types:
-        Piercing: 90
+        Slash: 100
     - types:
-        Slash: 80
-    - types:
-        Blunt: 90
+        Blunt: 150
 
 - type: entity
   abstract: true
@@ -57,8 +51,6 @@
   - type: BodyPart
     severThresholds:
     - types:
-        Piercing: 90
+        Slash: 100
     - types:
-        Slash: 40
-    - types:
-        Blunt: 90
+        Blunt: 150
