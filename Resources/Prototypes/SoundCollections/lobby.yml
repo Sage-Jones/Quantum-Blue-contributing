@@ -1,34 +1,47 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    #- /Audio/Lobby/434387_Time_Lapse_of_Clouds.ogg
-    - /Audio/Lobby/a_different_reality_lagoona_remix.xm.ogg
-    - /Audio/Lobby/aggravated.it.ogg
-    - /Audio/Lobby/autumnal_equinox.xm.ogg
-    #- /Audio/Lobby/the_wizard.ogg # uncomment when wizard real :trollface:
     - /Audio/Lobby/comet_haley.ogg
-    #- /Audio/Lobby/drozerix_-_alone.xm.ogg
     - /Audio/Lobby/drozerix_-_leisurely_voice.xm.ogg
     - /Audio/Lobby/endless_space.ogg
-    - /Audio/Lobby/marhaba.ogg
-    - /Audio/Lobby/melcom-cyberpunk.it.ogg
-    - /Audio/Lobby/midori_-_conundrum_final.it.ogg
-    - /Audio/Lobby/mod.flip-flap.ogg
-    - /Audio/Lobby/Patricia_Taxxon_-_Minute.ogg
-    - /Audio/Lobby/Patricia_Taxxon_-_Chipshop.ogg
-    - /Audio/Lobby/psirius_-_nights_of_orion.xm.ogg
-    - /Audio/Lobby/psirius_-_nymphs_of_the_forest.mptm.ogg
-    - /Audio/Lobby/superposition.ogg
-    - /Audio/Lobby/hackers.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Lobby/DOS=HIGH,_UMB.ogg
-    - /Audio/Lobby/Black_Heat.ogg
-    - /Audio/Lobby/thestation.ogg
-    - /Audio/Lobby/Get_It_Done.ogg
-    - /Audio/Lobby/Undefined_Theory.ogg
-    # Begin DeltaV additions
-    - /Audio/_DV/Lobby/all_grown_up.ogg
-    - /Audio/_DV/Lobby/boss.ogg
-    - /Audio/_DV/Lobby/dinner_with_u.ogg
-    - /Audio/_DV/Lobby/man_and_moon.ogg
-    # End of DeltaV additions
+    - /Audio/Lobby/mod.flip-flap.ogg
+    # Delta-v Additions
+    - /Audio/_DV/Lobby/a_different_reality_lagoona_remix.xm.ogg
+    - /Audio/_DV/Lobby/aggravated.it.ogg
+    - /Audio/_DV/Lobby/autumnal_equinox.xm.ogg
+    - /Audio/_DV/Lobby/Black_Heat.ogg
+    - /Audio/_DV/Lobby/DOS=HIGH,_UMB.ogg
+    - /Audio/_DV/Lobby/Get_It_Done.ogg
+    - /Audio/_DV/Lobby/hackers.ogg
+    - /Audio/_DV/Lobby/marhaba.ogg
+    - /Audio/_DV/Lobby/melcom-cyberpunk.it.ogg
+    - /Audio/_DV/Lobby/midori_-_conundrum_final.it.ogg
+    - /Audio/_DV/Lobby/Patricia_Taxxon_-_Chipshop.ogg
+    - /Audio/_DV/Lobby/Patricia_Taxxon_-_Minute.ogg
+    - /Audio/_DV/Lobby/psirius_-_nights_of_orion.xm.ogg
+    - /Audio/_DV/Lobby/psirius_-_nymphs_of_the_forest.mptm.ogg
+    - /Audio/_DV/Lobby/superposition.ogg
+    - /Audio/_DV/Lobby/thestation.ogg
+    # Post Delta-v fork restorations
+    - /Audio/Lobby/absconditus.ogg
+    - /Audio/Lobby/atomicamnesiammx.ogg
+    - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
+    - /Audio/Lobby/pwmur.ogg
+    - /Audio/Lobby/singuloose.ogg
+    - /Audio/Lobby/Spac_Stac.ogg
+    - /Audio/Lobby/space_asshole.ogg
+    - /Audio/Lobby/thunderdome.ogg
+    - /Audio/Lobby/title2.ogg
+    - /Audio/Lobby/title3.ogg
+    # Quantum Blue additions
+    - /Audio/_QB/Lobby/Bells_of_Laguna_Bend.ogg
+    - /Audio/_QB/Lobby/Confederate_Battle.ogg
+    - /Audio/_QB/Lobby/Daydreaming_At_Night.ogg
+    - /Audio/_QB/Lobby/Devil_Fish.ogg
+    - /Audio/_QB/Lobby/Floral_Explore.ogg
+    - /Audio/_QB/Lobby/Gravity_Well.ogg
+    - /Audio/_QB/Lobby/Leech_Explore.ogg
+    - /Audio/_QB/Lobby/Lifeforms.ogg
+    - /Audio/_QB/Lobby/Nebula.ogg
+    - /Audio/_QB/Lobby/Pulse_Injector.ogg
