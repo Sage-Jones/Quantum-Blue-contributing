@@ -1,5 +1,69 @@
-# Ordered by filename alphabetically
-- files: ["all_grown_up.ogg", "boss.ogg", "dinner_with_u.ogg", "man_and_moon.ogg"]
-  license: "CC-BY-SA-4.0"
-  copyright: "by Darklyac for DeltaV"
-  source: "https://github.com/DeltaV-Station/Delta-v.git"
+- files: ["aggravated.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "MEL -Aggravated Assault by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=176234"
+
+- files: ["Black_Heat.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Black Heat by Ross Bugden, converted from WAV to OGG"
+  source: "https://soundcloud.com/rossbugden/intense-and-upbeat-electronic-trailer-music-black-heat-copyright-and-royalty-free"
+
+- files: ["DOS=HIGH,_UMB.ogg"]
+  license: "Custom"
+  copyright: "DOS=HIGH, UMB by MASTER BOOT RECORD may be used non-commercially in the Delta-V fork of SS14. Converted from FLAC to OGG."
+  source: "https://masterbootrecord.bandcamp.com/album/c-edit-config-sys"
+
+- files: [ "Get_It_Done.ogg" ]
+  license: "CC0-1.0"
+  copyright: "Get It Done by A-Guy, converted from mp3 to OGG"
+  source: "https://github.com/A-Guy173/Music/blob/main/getitdone.mp3"
+
+- files: ["hackers.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Hackers by Karl Casey @ White Bat Audio"
+  source: "https://www.youtube.com/watch?v=k8nHWwO1U2Q"
+
+- files: ["marhaba.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Marhaba by Ian Alex Mac. Converted from MP3 to OGG."
+  source: "https://freemusicarchive.org/music/Ian_Alex_Mac/Cues/Marhaba"
+
+- files: ["melcom-cyberpunk.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "MEL -Cyberpunk by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184215"
+
+- files: ["midori_-_conundrum_final.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Conundrum by Midori Mizuno"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=181705"
+
+- files: ["Patricia_Taxxon_-_Chipshop.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Chipshop by Patricia Taxxon off the album 'Bicycle'"
+  source: "https://patriciataxxon.bandcamp.com/track/chipshop"
+
+- files: ["Patricia_Taxxon_-_Minute.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Minute by Patricia Taxxon off the album 'Aeroplane'"
+  source: "https://patriciataxxon.bandcamp.com/track/minute"
+
+- files: ["psirius_-_nights_of_orion.xm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nights of Orion by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184962"
+
+- files: ["psirius_-_nymphs_of_the_forest.mptm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nymphs of the forest by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=185545"
+
+- files: ["superposition.ogg"]
+  license: "CC-BY-NC-3.0"
+  copyright: "Superposition by Amie Waters"
+  source: "https://amiewaters.bandcamp.com/track/superposition-2"
+
+- files: ["thestation.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Station by A-Guy, converted from mp3 to OGG"
+  source: "https://github.com/A-Guy173/Music/blob/main/thestation.mp3"
