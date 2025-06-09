@@ -1,6 +1,6 @@
 ## Species Names
 
-species-name-oni = Oni
+species-name-oni = Ghav
 species-name-felinid = Felinid
 species-name-vulpkanin = Vulpkanin
 species-name-harpy = Harpy

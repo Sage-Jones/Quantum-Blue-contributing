@@ -1,7 +1,7 @@
 - type: species
   id: Feroxi
   name: species-name-feroxi
-  roundStart: true
+  roundStart: false # Quantum Blue: Removing Feroxi as a playable species
   prototype: MobFeroxi
   sprites: MobFeroxiSprites
   defaultSkinTone: "#8DB9D6"
