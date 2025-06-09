@@ -1,7 +1,7 @@
 - type: species
   id: Chitinid
   name: species-name-chitinid
-  roundStart: true
+  roundStart: false # Quantum Blue: Removing Chitinid as a playable species
   prototype: MobChitinid
   sprites: MobChitinidSprites
   defaultSkinTone: "#ffda93"

@@ -1,7 +1,7 @@
 - type: species
   id: Kitsune
   name: Kitsune
-  roundStart: true
+  roundStart: false # Quantum Blue: Kitsune no longer playable
   prototype: MobKitsune
   sprites: MobHumanSprites
   markingLimits: MobKitsuneMarkingLimits
