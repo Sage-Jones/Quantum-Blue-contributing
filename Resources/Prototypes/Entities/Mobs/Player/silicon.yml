@@ -326,6 +326,9 @@
   description: The AI's viewer.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
+  - type: MovementSpeedModifier # Quantum Blue: Made the station ai camera x2 faster
+    baseWalkSpeed: 12
+    baseSprintSpeed: 24
   - type: NoFTL
   - type: Tag
     tags:
