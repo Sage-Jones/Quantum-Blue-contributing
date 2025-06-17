@@ -15,7 +15,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 30
+    maxIntensity: 35
     intensitySlope: 3
     totalIntensity: 300
     maxTileBreak: 1
@@ -72,7 +72,7 @@
     explosionType: FireBomb
     totalIntensity: 300
     intensitySlope: 1
-    maxIntensity: 150
+    maxIntensity: 200
     canCreateVacuum: false
   - type: PointLight
     radius: 3.5

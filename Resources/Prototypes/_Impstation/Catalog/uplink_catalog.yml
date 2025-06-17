@@ -277,15 +277,13 @@
   - !type:BuyerWhitelistCondition
 
 - type: listing
-  id: uplinkLeviathan
+  id: uplinkLeviathanBundle
   name: uplink-leviathan-name
   description: uplink-leviathan-desc
-  productEntity: WeaponLauncherBazooka
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 17
+  icon: { sprite: /Textures/_Impstation/Objects/Weapons/Guns/Launchers/leviathan.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateLeviathan
   cost:
-    Telecrystal: 20
+    Telecrystal: 35
   categories:
     - UplinkWeaponry
 
