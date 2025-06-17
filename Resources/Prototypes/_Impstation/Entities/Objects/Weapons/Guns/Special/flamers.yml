@@ -39,12 +39,12 @@
       chamber:
         reagents:
         - ReagentId: WeldingFuel
-          Quantity: 600
-        maxVol: 600 #25 seconds of flaming
+          Quantity: 960
+        maxVol: 960 # 1 minute of fuel
   - type: SolutionAmmoProvider
     solutionId: chamber
     proto: BulletFlamethrower
-    fireCost: 3
+    fireCost: 2
   - type: SolutionItemStatus
     solution: chamber
   - type: SolutionRefuel
