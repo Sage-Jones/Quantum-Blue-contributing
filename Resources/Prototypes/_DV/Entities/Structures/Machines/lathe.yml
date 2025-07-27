@@ -85,6 +85,7 @@
     - FauxTiles
     - Equipment
     - UpgradeKits
+    - UpgradeKits_Goob
     - EngineeringHardsuits
   - type: Machine
     board: EngineeringTechFabCircuitboard
