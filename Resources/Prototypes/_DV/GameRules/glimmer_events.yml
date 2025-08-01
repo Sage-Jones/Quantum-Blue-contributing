@@ -13,6 +13,7 @@
     - id: GlimmerMiteSpawn
     - id: GlimmerRandomSentience
     #- id: ThavenMoodUpset # Quantum Blue: Thavens removed for now, but leaving the code intact just in case
+    - id: GlimmerRandomAnimation
     - id: PsionicNosebleedEvent
 
 - type: entity
@@ -43,6 +44,14 @@
     glimmerBurnLower: 20
     glimmerBurnUpper: 60
   - type: RandomSentienceRule
+
+- type: entity
+  parent: BaseGlimmerSignaturesEvent
+  id: GlimmerRandomAnimation
+  components:
+  - type: GlimmerEvent
+    minimumGlimmer: 500
+  - type: RandomAnimationRule
 
 - type: entity
   parent: BaseGlimmerEvent
