@@ -31,7 +31,11 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatStandard
   - type: AllowSuitStorage
-  - type: Insulated
+  - type: DamageOnShootProtection
+    slots: OUTERCLOTHING
+    damageProtection:
+      flatReductions:
+        Blunt: 10
 
 - type: entity
   parent: ClothingOuterHardsuitCombatStandard
