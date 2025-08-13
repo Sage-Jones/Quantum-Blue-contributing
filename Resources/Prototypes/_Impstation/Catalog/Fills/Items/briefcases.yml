@@ -1,6 +1,6 @@
 - type: entity
-  id: BriefcaseBlackFilled
-  parent: BriefcaseBlack
+  id: CybersunBriefcaseFilled
+  parent: CybersunBriefcase
   suffix: Filled, Paper
   components:
   - type: StorageFill
