@@ -213,7 +213,7 @@ public sealed class PsionicEruptionSystem : EntitySystem
             return;
 
         var pos = _transform.GetMapCoordinates(entity);
-        _body.GibBody(entity, acidify: true, body, launchGibs: true);
+        //_body.GibBody(entity, acidify: true, body, launchGibs: true); // QB: No inherent gibbing anymore
         int boom = _glimmer.GetGlimmerTier(_glimmer.Glimmer) switch
         {
             GlimmerTier.Minimal => 4,
