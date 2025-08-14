@@ -4093,3 +4093,225 @@
   id: 1423
   time: '2025-05-21T18:28:01.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/3812
+- author: Radezolid
+  changes:
+  - message: Fixed maintenance airlocks having the upstream sprite.
+    type: Fix
+  id: 1424
+  time: '2025-05-22T01:58:35.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3820
+- author: deltanedas
+  changes:
+  - message: Merged upstream changes from the past 3 weeks.
+    type: Add
+  - message: Removed cyanoxadone/hemoxadone as they were replaced by cryoxadone.
+    type: Remove
+  id: 1425
+  time: '2025-05-21T19:14:43.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3787
+- author: sowelipililimute
+  changes:
+  - message: Traitor reputation testmerge is complete and has been unmerged pending
+      future changes.
+    type: Remove
+  id: 1426
+  time: '2025-05-22T22:59:13.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3823
+- author: Quanteey
+  changes:
+  - message: Fixed limbs not getting correctly severed when receiving high amounts
+      of damage at once. Defibs will no longer pop limbs off.
+    type: Fix
+  id: 1427
+  time: '2025-05-23T12:55:03.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3826
+- author: ArtisticRoomba
+  changes:
+  - message: The TEG's efficiency in extracting power from gasses has been tweaked
+      to promote dual-loop designs that recycle the waste heat of gasses, and punish
+      "meta" single loop designs.
+    type: Tweak
+  id: 1428
+  time: '2025-05-23T15:19:36.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3835
+- author: Lyndomen
+  changes:
+  - message: Added two TC to nukies
+    type: Tweak
+  - message: Removed Death Acidifier from nukie bags
+    type: Tweak
+  id: 1429
+  time: '2025-05-23T16:19:24.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3706
+- author: sowelipililimute
+  changes:
+  - message: The USSPS Orit now exists, a paramedic-focused shuttle that can be purchased
+      from the shipyard
+    type: Add
+  - message: The USSPS Miriam now exists, a cryogenics/stasis-focused shuttle that
+      can be purchased from the shipyard
+    type: Add
+  - message: The USSPS Eden now exists, a hydroponics-chemistry shuttle that can be
+      purchased from the shipyard
+    type: Add
+  id: 1430
+  time: '2025-05-23T16:51:54.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3791
+- author: AftrLite
+  changes:
+  - message: NEW GAMEMODE - Get ready to cult, the Cosmic Cult is now in rotation!
+    type: Add
+  - message: The Cosmic Cult can now transfigure Cyborgs into Entropic Colossi.
+    type: Add
+  - message: The Cosmic Cult's victory is less underwhelming now.
+    type: Add
+  - message: Miscellaneous fixes and polish to cosmic cult features, including changes
+      based on community feedback!
+    type: Fix
+  id: 1431
+  time: '2025-05-24T16:39:57.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3811
+- author: Radezolid
+  changes:
+  - message: Change to SOP, Captains now have to publicly announce the change they
+      made to SOP for better accountability.
+    type: Tweak
+  id: 1432
+  time: '2025-05-25T00:06:17.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3794
+- author: This_Is_Gray
+  changes:
+  - message: The conveyor belts have been made actually decent. No more eternally
+      rotating books in disposals.
+    type: Fix
+  - message: There's now a unique background specific to Elegance.
+    type: Add
+  id: 1433
+  time: '2025-05-27T17:04:49.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3828
+- author: AftrLite
+  changes:
+  - message: Entropic Colossi now have randomly-generated names!
+    type: Add
+  - message: Cosmic Cult r1.01. Various tweaks and polish.
+    type: Tweak
+  - message: The Cosmic Void pocket dimension is now larger. Less overcrowding in
+      postround!
+    type: Fix
+  id: 1434
+  time: '2025-05-28T04:40:24.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3851
+- author: Eternally-Confused
+  changes:
+  - message: Chief Justices now have Cryosleep access
+    type: Tweak
+  id: 1435
+  time: '2025-05-29T13:40:22.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3859
+- author: portfiend
+  changes:
+  - message: 'New plushies: Felinid, Oni, Harpy, Rodentia, Feroxi, Chitinid, Kitsune.'
+    type: Add
+  - message: Ported Thaven plushie from Impstation, courtesy of ATDoop.
+    type: Add
+  id: 1436
+  time: '2025-05-29T14:05:41.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3850
+- author: Quanteey
+  changes:
+  - message: Added Trinoxadone, a broad spectrum cryo medicine.
+    type: Add
+  id: 1437
+  time: '2025-05-29T23:20:55.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3824
+- author: AftrLite
+  changes:
+  - message: Fixed a bug with Vacuous Chantries were MMI Borgs would break everything.
+    type: Fix
+  id: 1438
+  time: '2025-05-30T13:35:43.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3866
+- author: SubspaceEmber
+  changes:
+  - message: RoboTech vend now has utility belts and two welding tools and masks.
+    type: Tweak
+  id: 1439
+  time: '2025-05-31T17:11:45.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3855
+- author: ShepardToTheStars
+  changes:
+  - message: Nanotrasen has started rollout of the experimental Family lawset for
+      AIs!
+    type: Add
+  id: 1440
+  time: '2025-05-31T19:07:14.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3862
+- author: kotobdev
+  changes:
+  - message: Pistols now have a small chance to fire upon hitting the ground.
+    type: Tweak
+  id: 1441
+  time: '2025-06-01T06:55:57.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3869
+- author: Quanteey
+  changes:
+  - message: Salbutamol is slightly darker now
+    type: Tweak
+  id: 1442
+  time: '2025-06-01T07:00:19.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3876
+- author: Spielern
+  changes:
+  - message: The Robotech Deluxe now has a full set of surgical tools for Roboticists
+      to use.
+    type: Add
+  id: 1443
+  time: '2025-06-03T15:36:21.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3893
+- author: Radezolid
+  changes:
+  - message: Moved the first law of the security cyborg to the end of the list
+    type: Tweak
+  id: 1444
+  time: '2025-06-03T19:47:16.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3769
+- author: Radezolid
+  changes:
+  - message: Removed LO's knuckledusters from their locker.
+    type: Remove
+  id: 1445
+  time: '2025-06-04T13:48:56.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3871
+- author: ZigTag
+  changes:
+  - message: synthetic lizard and zenghu alternative IPC parts
+    type: Add
+  - message: whitelist more markings for IPCs
+    type: Tweak
+  - message: IPC screens now render under hair and are in their own category
+    type: Tweak
+  - message: change naming scheme of rodentia and feroxi accessories to fall in line
+      with vulpkanin
+    type: Tweak
+  - message: IPCs are no longer bald
+    type: Fix
+  id: 1446
+  time: '2025-06-05T19:09:23.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3875
+- author: SolStar2
+  changes:
+  - message: 'Apoapsis: reduced the time at CC to 30 seconds pending changes to the
+      CC map.'
+    type: Tweak
+  - message: Evac shuttle transit time changed to 15 seconds.
+    type: Tweak
+  id: 1447
+  time: '2025-06-07T02:59:42.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3886
+- author: HTMLSystem, whatston3
+  changes:
+  - message: Barrels now have a sprite when you put paper on them.
+    type: Fix
+  id: 1448
+  time: '2025-06-07T07:41:10.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3907

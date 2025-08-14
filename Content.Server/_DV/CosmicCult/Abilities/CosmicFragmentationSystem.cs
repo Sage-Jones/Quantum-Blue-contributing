@@ -1,14 +1,10 @@
 using Content.Server._DV.Objectives.Events;
 using Content.Server.Antag;
-using Content.Server.Polymorph.Systems;
-using Content.Server.Popups;
+using Content.Shared.Popups;
 using Content.Server.Radio.Components;
 using Content.Shared._DV.CosmicCult;
 using Content.Shared._DV.CosmicCult.Components;
-using Content.Shared._DV.Silicons;
-using Content.Shared.DoAfter;
-using Content.Shared.Mobs;
-using Content.Shared.Mobs.Components;
+using Content.Shared.Mind;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.NPC;
 using Content.Shared.Radio;
@@ -23,11 +19,11 @@ public sealed class CosmicFragmentationSystem : EntitySystem
 {
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
     [Dependency] private readonly CosmicCultSystem _cult = default!;
+    [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
-    [Dependency] private readonly PopupSystem _popup = default!;
-    [Dependency] private readonly PolymorphSystem _polymorph = default!;
+    [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
-    [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
+    [Dependency] private readonly SharedMindSystem _mind = default!;
 
     private ProtoId<RadioChannelPrototype> _cultRadio = "CosmicRadio";
 
@@ -41,7 +37,6 @@ public sealed class CosmicFragmentationSystem : EntitySystem
         SubscribeLocalEvent<SiliconLawUpdaterComponent, MalignFragmentationEvent>(OnFragmentAi);
 
         SubscribeLocalEvent<CosmicCultComponent, EventCosmicFragmentation>(OnCosmicFragmentation);
-        SubscribeLocalEvent<CosmicCultComponent, EventCosmicFragmentationDoAfter>(OnCosmicFragmentationDoAfter);
     }
 
     private void UnEmpower(Entity<CosmicCultComponent> ent)
@@ -64,42 +59,32 @@ public sealed class CosmicFragmentationSystem : EntitySystem
             _popup.PopupEntity(Loc.GetString("cosmicability-generic-fail"), ent, ent);
             return;
         }
-
-        var doargs = new DoAfterArgs(EntityManager, ent, ent.Comp.CosmicSiphonDelay, new EventCosmicFragmentationDoAfter(), ent, args.Target)
-        {
-            DistanceThreshold = 2f,
-            Hidden = false,
-            BreakOnHandChange = true,
-            BreakOnDamage = true,
-            BreakOnMove = true,
-            BreakOnDropItem = true,
-        };
+        var evt = new MalignFragmentationEvent(ent, args.Target);
+        RaiseLocalEvent(args.Target, ref evt);
+        if (evt.Cancelled) return;
         args.Handled = true;
-        _doAfter.TryStartDoAfter(doargs);
+        _popup.PopupEntity(Loc.GetString("cosmicability-fragmentation-success", ("user", ent), ("target", args.Target)), ent, PopupType.MediumCaution);
         _cult.MalignEcho(ent);
         UnEmpower(ent);
     }
 
-    private void OnCosmicFragmentationDoAfter(Entity<CosmicCultComponent> ent, ref EventCosmicFragmentationDoAfter args)
-    {
-        if (args.Args.Target is not { } target)
-            return;
-        if (args.Cancelled || args.Handled)
-            return;
-        args.Handled = true;
-
-        var evt = new MalignFragmentationEvent(ent, target);
-        RaiseLocalEvent(target, ref evt);
-    }
-
     private void OnFragmentBorg(Entity<BorgChassisComponent> ent, ref MalignFragmentationEvent args)
     {
-        if (_polymorph.PolymorphEntity(args.Target, "CosmicFragmentationWisp") is not { } polyVictim)
+        if (!_mind.TryGetMind(args.Target, out var mindId, out var mind))
+        {
+            args.Cancelled = true;
             return;
+        }
+        var wisp = Spawn("CosmicChantryWisp", Transform(args.Target).Coordinates);
         var chantry = Spawn("CosmicBorgChantry", Transform(args.Target).Coordinates);
         EnsureComp<CosmicChantryComponent>(chantry, out var chantryComponent);
-        chantryComponent.PolyVictim = polyVictim;
-        chantryComponent.Victim = args.Target;
+        chantryComponent.InternalVictim = wisp;
+        chantryComponent.VictimBody = args.Target;
+        _mind.TransferTo(mindId, wisp, mind: mind);
+
+        var mins = chantryComponent.EventTime.Minutes;
+        var secs = chantryComponent.EventTime.Seconds;
+        _antag.SendBriefing(wisp, Loc.GetString("cosmiccult-silicon-chantry-briefing", ("minutesandseconds", $"{mins} minutes and {secs} seconds")), Color.FromHex("#4cabb3"), null);
     }
 
     private void OnFragmentAi(Entity<SiliconLawUpdaterComponent> ent, ref MalignFragmentationEvent args)
@@ -120,7 +105,7 @@ public sealed class CosmicFragmentationSystem : EntitySystem
         {
             radio.Channels.Add(_cultRadio);
             transmitter.Channels.Add(_cultRadio);
-            _antag.SendBriefing(args.Target, Loc.GetString("cosmiccult-ai-subverted-briefing"), Color.FromHex("#4cabb3"), null);
+            _antag.SendBriefing(args.Target, Loc.GetString("cosmiccult-silicon-subverted-briefing"), Color.FromHex("#4cabb3"), null);
         }
         else
         {
@@ -131,4 +116,4 @@ public sealed class CosmicFragmentationSystem : EntitySystem
 }
 
 [ByRefEvent]
-public record struct MalignFragmentationEvent(Entity<CosmicCultComponent> User, EntityUid Target);
+public record struct MalignFragmentationEvent(Entity<CosmicCultComponent> User, EntityUid Target, bool Cancelled = false);

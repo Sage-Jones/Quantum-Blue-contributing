@@ -15,6 +15,8 @@
             prefixCreator: 'NY'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/_DV/Shuttles/NTES_UCLB.yml
+        - type: StationCargoShuttle
+          path: /Maps/_DV/Shuttles/NTCS_Duster.yml
         - type: StationJobs
           availableJobs:
           #civilian
@@ -47,7 +49,7 @@
             Detective: [ 1, 1 ]
             Gladiator: [ 2, 2 ]
             HeadOfSecurity: [ 1, 1 ]
-            #Prisoner: [ 2, 2 ] temporary test
+            Prisoner: [ 2, 2 ]
             PrisonGuard: [ 1, 1 ]
             SecurityOfficer: [ 5, 7 ]
             SecurityCadet: [ 2, 2 ]

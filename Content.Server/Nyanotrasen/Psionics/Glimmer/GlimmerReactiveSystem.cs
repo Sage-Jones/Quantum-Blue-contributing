@@ -26,6 +26,7 @@ using Robust.Shared.Map.Components;
 using Robust.Shared.Random;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Utility;
+using Content.Server.Research.Components;
 
 namespace Content.Server.Psionics.Glimmer
 {
@@ -70,6 +71,24 @@ namespace Content.Server.Psionics.Glimmer
         }
 
         /// <summary>
+        /// Gets the 'maximum' glimmer value for a given tier.
+        /// </summary>
+        /// <param name="tier">The tier to get the maximum glimmer value for.</param>
+        private int GetMaxGlimmerByTier(GlimmerTier tier)
+        {
+            return tier switch
+            {
+                GlimmerTier.Minimal => 49,
+                GlimmerTier.Low => 99,
+                GlimmerTier.Moderate => 299,
+                GlimmerTier.High => 499,
+                GlimmerTier.Dangerous => 899,
+                GlimmerTier.Critical => 1000,
+                _ => throw new ArgumentOutOfRangeException(nameof(tier), tier, null)
+            };
+        }
+
+        /// <summary>
         /// Update relevant state on an Entity.
         /// </summary>
         /// <param name="glimmerTierDelta">The number of steps in tier
@@ -92,6 +111,16 @@ namespace Content.Server.Psionics.Glimmer
             {
                 if (spec != null)
                     _sharedAmbientSoundSystem.SetSound(uid, spec, ambientSoundComponent);
+            }
+
+            // Improve research generation but increase glimmer generation based on tier, if component.ScaleResearchGeneration is true.
+            if (component.ScaleResearchGeneration)
+            {
+                int maxGlimmerByTier = GetMaxGlimmerByTier(currentGlimmerTier);
+                if (TryComp<ResearchPointSourceComponent>(uid, out var researchGenerator))
+                    researchGenerator.PointsPerSecond = (int)(maxGlimmerByTier * component.ResearchGenerationFactor);
+                if (TryComp<GlimmerSourceComponent>(uid, out var glimmerSource))
+                    glimmerSource.SecondsPerGlimmer = 1f / (maxGlimmerByTier * component.GlimmerGenerationFactor);
             }
 
             if (component.ModulatesPointLight) //SharedPointLightComponent is now being fetched via TryGetLight.
