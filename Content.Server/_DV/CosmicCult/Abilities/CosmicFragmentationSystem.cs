@@ -50,6 +50,8 @@ public sealed class CosmicFragmentationSystem : EntitySystem
         comp.CosmicImpositionDuration = CosmicCultComponent.DefaultCosmicImpositionDuration;
         comp.CosmicBlankDuration = CosmicCultComponent.DefaultCosmicBlankDuration;
         comp.CosmicBlankDelay = CosmicCultComponent.DefaultCosmicBlankDelay;
+        _actions.RemoveAction(ent.Owner, comp.CosmicFragmentationActionEntity);
+        comp.CosmicFragmentationActionEntity = null;
     }
 
     private void OnCosmicFragmentation(Entity<CosmicCultComponent> ent, ref EventCosmicFragmentation args)
