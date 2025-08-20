@@ -15,6 +15,12 @@
   - type: Appearance
   - type: Item
     size: Small
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
   - type: SolutionContainerVisuals
     maxFillLevels: 4
     fillBaseName: canister-

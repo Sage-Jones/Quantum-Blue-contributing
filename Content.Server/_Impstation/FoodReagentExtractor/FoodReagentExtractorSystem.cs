@@ -3,7 +3,7 @@ using Content.Server.Popups;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Interaction;
-using Content.Server.Nutrition.Components;
+using Content.Shared.Nutrition.Components;
 using Robust.Server.Audio;
 
 namespace Content.Server._Impstation.FoodReagentExtractor;
