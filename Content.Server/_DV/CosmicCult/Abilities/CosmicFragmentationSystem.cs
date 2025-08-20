@@ -1,4 +1,5 @@
 using Content.Server._DV.Objectives.Events;
+using Content.Server.Actions;
 using Content.Server.Antag;
 using Content.Shared.Popups;
 using Content.Server.Radio.Components;
@@ -24,6 +25,7 @@ public sealed class CosmicFragmentationSystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
+    [Dependency] private readonly ActionsSystem _actions = default!;
 
     private ProtoId<RadioChannelPrototype> _cultRadio = "CosmicRadio";
 

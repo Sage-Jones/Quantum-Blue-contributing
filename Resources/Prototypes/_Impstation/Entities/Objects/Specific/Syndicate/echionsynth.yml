@@ -16,7 +16,7 @@
     - state: core
       visible: false
       shader: unshaded
-      map: ["enum.ToggleVisuals.Layer"]
+      map: ["enum.ToggleableVisuals.Layer"]
   - type: Appearance
   - type: Item
     size: Large
