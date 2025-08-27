@@ -161,6 +161,7 @@
     SpaceNinja:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    - !type:WhitelistRequirement
 
     Nukeops:
     - !type:OverallPlaytimeRequirement
@@ -171,6 +172,7 @@
     NukeopsCommander:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    - !type:WhitelistRequirement
 
     HeadRev:
     - !type:OverallPlaytimeRequirement
@@ -190,6 +192,7 @@
     Wizard:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    - !type:WhitelistRequirement
 
     InitialInfected:
     - !type:OverallPlaytimeRequirement
@@ -206,10 +209,12 @@
     Recruiter:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    - !type:WhitelistRequirement
 
     RoboNeuroticist:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    - !type:WhitelistRequirement
 
     SynthesisSpecialist:
     - !type:OverallPlaytimeRequirement
