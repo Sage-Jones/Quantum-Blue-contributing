@@ -1,0 +1,28 @@
+- type: whitelistTier
+  id: HighCommand
+  name: High Command
+  color: "#e6a11e"
+  jobs:
+    - Captain
+    - StationAi
+
+- type: whitelistTier
+  id: Roleplay
+  name: Roleplay
+  color: "#93e61e"
+  jobs:
+  - ChiefJustice
+  #- Recruiter //QB: You can't put antags in whitelistTiers. But if you you could, these would be in this one.
+  #- ListeningPost
+
+
+# //QB: Again, you can't put antags in whitelistTiers. But if you you could, these would be in this one.
+#- type: whitelistTier
+#  id: MajorAntag
+#  name: Major Antagonist
+#  color: "#991212"
+#  jobs:
+#    - Wizard
+#    - NukieCommander
+#    - Ninja
+#    - SyndieRoboneuroticist
