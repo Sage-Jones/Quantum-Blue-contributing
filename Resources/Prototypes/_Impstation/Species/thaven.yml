@@ -1,7 +1,7 @@
 - type: species
   id: Thaven
   name: species-name-thaven
-  roundStart: false # Quantum Blue: Thaven no longer playable
+  roundStart: true
   prototype: MobThaven
   sprites: MobThavenSprites
   defaultSkinTone: "#ffffff"
