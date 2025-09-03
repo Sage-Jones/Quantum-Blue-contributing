@@ -1,3 +1,76 @@
+# Slime
+- type: emoteSounds
+  id: UnisexSlime
+  params:
+    variation: 0.125
+  sounds:
+    Squish:
+      collection: Squishes
+    Bubble:
+      collection: Bubbles
+    Pop:
+      collection: Pops
+    Scream:
+      collection: UnisexSlimeScreams
+    Laugh:
+      collection: UnisexSlimeLaugh
+    Sneeze:
+      collection: UnisexSlimeSneezes
+    Cough:
+      collection: UnisexSlimeCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: UnisexSlimeYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: UnisexSlimeSigh
+    Crying:
+      collection: UnisexSlimeCry
+    Whistle:
+      collection: SlimeWhistles
+    Weh:
+      collection: Weh
+    Wuhey:
+      collection: Wuhey
+    Ungh:
+      collection: Ungh
+    Gasp:
+      collection: UnisexSlimeGasp
+    DefaultDeathgasp:
+      collection: UnisexSlimeDeathGasp
+
+- type: emoteSounds
+  id: SlimeBodyEmotes
+  sounds:
+    Clap:
+      collection: Claps
+    ClapSingle:
+      collection: ClapSingle
+    Snap:
+      collection: Snaps
+      params:
+        volume: -3
+    Salute:
+      collection: Salutes
+    Crack:
+      collection: Cracks
+    Blink:
+      collection: WetBlinks
+      params:
+        volume: -3
+        variation: 0.1
+
+# Thaven
 - type: emoteSounds
   id: MaleThaven
   sounds:
