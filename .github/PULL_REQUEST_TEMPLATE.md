@@ -1,5 +1,3 @@
-<!-- If you are new to the Delta-V repository, please read the [Contributing Guidelines](https://github.com/DeltaV-Station/Delta-v/blob/master/CONTRIBUTING.md) -->
-
 ## About the PR
 <!-- What did you change? -->
 
@@ -24,7 +22,7 @@ Small fixes/refactors are exempt. -->
 
 **Changelog**
 <!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
-Make sure to read the guidelines and take this Changelog template out of the comment block in order for it to show up.
+Make sure to take this Changelog template out of the comment block in order for it to show up.~~~~
 Changelogs must have a :cl: symbol, so the bot recognizes the changes and adds them to the game's changelog. -->
 <!--
 :cl:
