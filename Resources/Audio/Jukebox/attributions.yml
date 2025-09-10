@@ -1,27 +1,80 @@
-- files: ["sector11.ogg"]
+- files: ["a_different_reality_lagoona_remix.xm_MONO.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "A.D.R (Lagoona rmx) by Andreas Viklund"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=134786"
+
+- files: ["atomicamnesiammx_MONO.ogg"]
   license: "CC-BY-NC-SA-3.0"
-  copyright: "-Sector11 by MashedByMachines. Converted to mono OGG."
-  source: "https://www.newgrounds.com/audio/listen/312622"
+  copyright: "Atomic Amnesia MMX by Philip Dyer. Converted from MP3 to OGG."
+  source: "https://youtu.be/h0KJBGJdHuo?si=d0JjD0jgun0pp7QO"
+
+- files: ["autumnal_equinox.xm_MONO.ogg"]
+  license: "CC-BY-NC-4.0"
+  copyright: "Autumnal Equinox by lemonade"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=143993"
+
+- files: ["comet_haley_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Comet Haley by Stellardrone. Converted from MP3 to OGG."
+  source: "https://stellardrone.bandcamp.com/track/comet-halley"
+
+- files: ["drozerix_-_leisurely_voice.xm_MONO.ogg"]
+  license: "Custom"
+  copyright: "Leisurely Voice by Drozerix"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=183837"
+
+- files: ["endless_space_MONO.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Endless Space by SolusLunes. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/67583"
+
+- files: ["every_light_is_blinking_at_once_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "every light is blinking at once by Sunbeamstress/Lauren Loveless."
+  source: "https://soundcloud.com/sunbeamstress/every-light-is-blinking-at-once"
+
+- files: ["lasers_rip_apart_the_bulkhead_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "lasers rip apart the bulkhead by Sunbeamstress/Lauren Loveless."
+  source: "https://soundcloud.com/sunbeamstress/lasers-rip-apart-the-bulkhead"
 
 - files: ["mod.flip-flap.ogg"]
   license: "Custom"
-  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to mono OGG."
+  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in this directory) and is free for non-commercial use. It was converted from MOD to WAV using Schism Tracker, in 16 Bit, Non-Interpolated mode, no output equalizer settings, Ramp volume at start of sample enabled. From there it was converted to OGG Vorbis with `ffmpeg -i flip-flap.wav -q 2.9 flip-flap-renc.ogg` (quality scale chosen to match size of the OGG file being replaced). Non-interpolated mode was chosen as the module has a high enough sample rate to balance it out, but seems muffled in other interpolation modes. If 'Ramp volume at start of sample' is not enabled, a clicking phenomenon results."
   source: "http://aminet.net/package/mods/xceed/Flipflap"
+
+- files: ["pwmur_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "phoron will make us rich by Sunbeamstress/Lauren Loveless."
+  source: "https://soundcloud.com/sunbeamstress/phoron-will-make-us-rich"
+
+- files: ["singuloose_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Singuloose by Janis Schiedková. Converted from MP3 to OGG."
+  source: "https://soundcloud.com/js_m/singuloose"
+
+- files: ["Spac_Stac_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Spac Stac by Hayabusa. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/1132476"
+
+- files: ["space_asshole.ogg"]
+  license: "Custom"
+  copyright: "Space Asshole by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
+  source: "https://idlethumbs.bandcamp.com/track/space-asshole"
+  # The source is a direct link to the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
+
+- files: ["thunderdome_MONO.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Sector11 by MashedByMachines. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/312622"
+
+- files: ["title2_MONO.ogg"]
+  license: "Custom"
+  copyright: "Originally composed by Jonathan Dunn for Robocop 2 Gameboy published by Ocean Software. Remixed by Eric Shumaker for his video Dilbert 3. As of October 9th, 2008 nobody owns the rights to this song and copyright action has never been taken against anyone using this song in their projects."
+  source: "https://www.youtube.com/watch?v=4o6_8Unj2mQ"
 
 - files: ["title3.ogg"]
   license: "CC-BY-NC-SA-3.0"
-  copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted to mono OGG."
+  copyright: "Tintin on the Moon MkII by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted from MP3 to OGG."
   source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
-
-- files:
-  - "constellations.ogg"
-  - "drifting.ogg"
-  - "starlight.ogg"
-  license: "CC-BY-3.0"
-  copyright: "Constellations by Qwertyquerty. Converted to mono OGG."
-  source: "https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ"
-
-- files: ["sunset.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Sunset by PigeonBeans. Exported in Mono OGG."
-  source: "https://soundcloud.com/pigeonbeans/sunset"
