@@ -93,15 +93,15 @@
   copyright: "Friendly Conversation by Garoad"
   source: "https://www.youtube.com/watch?v=OOlWaWTlfuI"
 
-- files: ["Get_It_Done_MONO.ogg"]
-  license: "Custom"
-  copyright: "Get It Done by A-Guy"
-  source: "https://www.youtube.com/watch?v=599C9Gv6m6o"
-
 - files: ["GET_ENUF_MONO.ogg"]
   license: "Custom"
   copyright: "GET ENUF by Hideki Naganuma"
   source: "https://www.youtube.com/watch?v=GPl_hQliU8w"
+
+- files: ["Get_It_Done_MONO.ogg"]
+  license: "Custom"
+  copyright: "Get It Done by A-Guy"
+  source: "https://www.youtube.com/watch?v=599C9Gv6m6o"
 
 - files: ["Gravity_Well_MONO.ogg"]
   license: "Custom"
