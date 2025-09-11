@@ -1,47 +1,49 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+    # Wizden additions, modified by Quantum Blue (mostly higher quality audio files, and some changes to the list)
+    - /Audio/Lobby/a_different_reality_lagoona_remix.xm.ogg
+    - /Audio/Lobby/absconditus.ogg
+    - /Audio/Lobby/atomicamnesiammx.ogg
+    - /Audio/Lobby/autumnal_equinox.xm.ogg
     - /Audio/Lobby/comet_haley.ogg
     - /Audio/Lobby/drozerix_-_leisurely_voice.xm.ogg
     - /Audio/Lobby/endless_space.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Lobby/mod.flip-flap.ogg
-    # Delta-v Additions
-    - /Audio/_DV/Lobby/a_different_reality_lagoona_remix.xm.ogg
-    - /Audio/_DV/Lobby/aggravated.it.ogg
-    - /Audio/_DV/Lobby/autumnal_equinox.xm.ogg
-    - /Audio/_DV/Lobby/Black_Heat.ogg
-    - /Audio/_DV/Lobby/DOS=HIGH,_UMB.ogg
-    - /Audio/_DV/Lobby/Get_It_Done.ogg
-    - /Audio/_DV/Lobby/hackers.ogg
-    - /Audio/_DV/Lobby/marhaba.ogg
-    - /Audio/_DV/Lobby/melcom-cyberpunk.it.ogg
-    - /Audio/_DV/Lobby/midori_-_conundrum_final.it.ogg
-    - /Audio/_DV/Lobby/Patricia_Taxxon_-_Chipshop.ogg
-    - /Audio/_DV/Lobby/Patricia_Taxxon_-_Minute.ogg
-    - /Audio/_DV/Lobby/psirius_-_nights_of_orion.xm.ogg
-    - /Audio/_DV/Lobby/psirius_-_nymphs_of_the_forest.mptm.ogg
-    - /Audio/_DV/Lobby/superposition.ogg
-    - /Audio/_DV/Lobby/thestation.ogg
-    # Post Delta-v fork restorations
-    - /Audio/Lobby/absconditus.ogg
-    - /Audio/Lobby/atomicamnesiammx.ogg
     - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
     - /Audio/Lobby/pwmur.ogg
     - /Audio/Lobby/singuloose.ogg
     - /Audio/Lobby/Spac_Stac.ogg
-    - /Audio/Lobby/space_asshole.ogg
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/title2.ogg
-    - /Audio/Lobby/title3.ogg
     # Quantum Blue additions
+    - /Audio/_QB/Lobby/aggravated.it.ogg
+    - /Audio/_QB/Lobby/Along_With_Brew.ogg
+    - /Audio/_QB/Lobby/Authentic_Sky.ogg
     - /Audio/_QB/Lobby/Bells_of_Laguna_Bend.ogg
+    - /Audio/_QB/Lobby/Black_Heat.ogg
+    - /Audio/_QB/Lobby/Bodybuilder.ogg
+    - /Audio/_QB/Lobby/Chipshop.ogg
     - /Audio/_QB/Lobby/Confederate_Battle.ogg
+    - /Audio/_QB/Lobby/Conundrum.it.ogg
+    - /Audio/_QB/Lobby/Cyperpunk.it.ogg
     - /Audio/_QB/Lobby/Daydreaming_At_Night.ogg
     - /Audio/_QB/Lobby/Devil_Fish.ogg
+    - /Audio/_QB/Lobby/Dont_Drink_It.ogg
+    - /Audio/_QB/Lobby/DOS=HIGH_UMB.ogg
     - /Audio/_QB/Lobby/Floral_Explore.ogg
+    - /Audio/_QB/Lobby/Get_It_Done.ogg
     - /Audio/_QB/Lobby/Gravity_Well.ogg
+    - /Audio/_QB/Lobby/Hackers.ogg
     - /Audio/_QB/Lobby/Leech_Explore.ogg
     - /Audio/_QB/Lobby/Lifeforms.ogg
+    - /Audio/_QB/Lobby/Marhaba.ogg
+    - /Audio/_QB/Lobby/Minute.ogg
     - /Audio/_QB/Lobby/Nebula.ogg
-    - /Audio/_QB/Lobby/Pulse_Injector.ogg
+    - /Audio/_QB/Lobby/Nights_of_Orion.xm.ogg
+    - /Audio/_QB/Lobby/Nymphs_of_the_Forest.mptm.ogg
+    - /Audio/_QB/Lobby/Quantum_Blue.ogg
+    - /Audio/_QB/Lobby/Space_Tech_Coffee.ogg
+    - /Audio/_QB/Lobby/Superposition.ogg
+    - /Audio/_QB/Lobby/The_City_of_Lost_Hope.ogg
+    - /Audio/_QB/Lobby/Warsaw.ogg

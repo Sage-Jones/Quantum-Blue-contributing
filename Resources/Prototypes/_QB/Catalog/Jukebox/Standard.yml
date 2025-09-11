@@ -1,0 +1,275 @@
+- type: jukebox
+  id: AggravatedAssault
+  name: melcom - Aggravated Assault
+  path:
+    path: /Audio/_QB/Jukebox/Aggravated.it_MONO.ogg
+
+- type: jukebox
+  id: AINTNOTHINLIKEAFUNKYBEAT
+  name: Hideki Naganuma - AINT NOTHIN LIKE A FUNKY BEAT
+  path:
+    path: /Audio/_QB/Jukebox/AINT_NOTHIN_LIKE_A_FUNKY_BEAT_MONO.ogg
+
+- type: jukebox
+  id: AlongWithBrew
+  name: Pilotredsky - Along With Brew
+  path:
+    path: /Audio/_QB/Jukebox/Along_With_Brew_MONO.ogg
+
+- type: jukebox
+  id: AuthenticSky
+  name: Satoru Kosaki - Authentic Sky
+  path:
+    path: /Audio/_QB/Jukebox/Authentic_Sky_MONO.ogg
+
+- type: jukebox
+  id: BasinKeep
+  name: Shirakumo Nagi - Basin Keep
+  path:
+    path: /Audio/_QB/Jukebox/Basin_Keep_MONO.ogg
+
+- type: jukebox
+  id: BellsOfLagunaBend
+  name: Paul Leonard-Morgan - Bells Of Laguna Bend
+  path:
+    path: /Audio/_QB/Jukebox/Bells_of_Laguna_Bend_MONO.ogg
+
+- type: jukebox
+  id: Bodybuilder
+  name: Pilotredsun - Bodybuilder
+  path:
+    path: /Audio/_QB/Jukebox/Bodybuilder_MONO.ogg
+
+- type: jukebox
+  id: Chipshop
+  name: Patricia Taxxon - Chipshop
+  path:
+    path: /Audio/_QB/Jukebox/Chipshop_MONO.ogg
+
+- type: jukebox
+  id: ConfederateBattle
+  name: MaddieDoktor - Confederate Battle
+  path:
+    path: /Audio/_QB/Jukebox/Confederate_Battle_MONO.ogg
+
+- type: jukebox
+  id: Conundrum
+  name: Midori Mizuno - Conundrum
+  path:
+    path: /Audio/_QB/Jukebox/Conundrum.it_MONO.ogg
+
+- type: jukebox
+  id: CubicVoid
+  name: +TEK - Cubic Void
+  path:
+    path: /Audio/_QB/Jukebox/Cubic_Void_MONO.ogg
+
+- type: jukebox
+  id: Cyberpunk
+  name: melcom - Cyberpunk
+  path:
+    path: /Audio/_QB/Jukebox/Cyberpunk.it_MONO.ogg
+
+- type: jukebox
+  id: DaydreamingAtNight
+  name: FreqGen - Daydreaming At Night
+  path:
+    path: /Audio/_QB/Jukebox/Daydreaming_At_Night_MONO.ogg
+
+- type: jukebox
+  id: DevilFish
+  name: FreqGen - Devil Fish
+  path:
+    path: /Audio/_QB/Jukebox/Devil_Fish_MONO.ogg
+
+- type: jukebox
+  id: DontDrinkIt
+  name: Pilotredsun - Don't Drink It
+  path:
+    path: /Audio/_QB/Jukebox/Don't_Drink_It_MONO.ogg
+
+- type: jukebox
+  id: DOSHIGHUMB
+  name: MASTER BOOT RECORD - DOS=HIGH, UMB
+  path:
+    path: /Audio/_QB/Jukebox/DOS=HIGH,_UMB_MONO.ogg
+
+- type: jukebox
+  id: DriveMeWild
+  name: Garoad - Drive Me Wild
+  path:
+    path: /Audio/_QB/Jukebox/Drive_Me_Wild_MONO.ogg
+
+- type: jukebox
+  id: FloralExplore
+  name: PDTM - Floral Explore
+  path:
+    path: /Audio/_QB/Jukebox/Floral_Explore_MONO.ogg
+
+- type: jukebox
+  id: FriendlyConversation
+  name: Garoad - Friendly Conversation
+  path:
+    path: /Audio/_QB/Jukebox/Friendly_Conversation_MONO.ogg
+
+- type: jukebox
+  id: GETENUF
+  name: Hideki Naganuma - GET ENUF
+  path:
+    path: /Audio/_QB/Jukebox/GET_ENUF_MONO.ogg
+
+- type: jukebox
+  id: GetItDone
+  name: A-Guy - Get It Done
+  path:
+    path: /Audio/_QB/Jukebox/Get_It_Done_MONO.ogg
+
+- type: jukebox
+  id: GravityWell
+  name: FreqGen - Gravity Well
+  path:
+    path: /Audio/_QB/Jukebox/Gravity_Well_MONO.ogg
+
+- type: jukebox
+  id: Hackers
+  name: Karl Casey - Hackers
+  path:
+    path: /Audio/_QB/Jukebox/Hackers_MONO.ogg
+
+- type: jukebox
+  id: IntoTheSky
+  name: +TEK - Into The Sky
+  path:
+    path: /Audio/_QB/Jukebox/Into_The_Sky_MONO.ogg
+
+- type: jukebox
+  id: Kitsch
+  name: Satoru Kosaki - Kitsch
+  path:
+    path: /Audio/_QB/Jukebox/Kitsch_MONO.ogg
+
+- type: jukebox
+  id: LeechExplore
+  name: SquishyBoi - Leech Explore
+  path:
+    path: /Audio/_QB/Jukebox/Leech_Explore_MONO.ogg
+
+- type: jukebox
+  id: Lifeforms
+  name: FreqGen - Lifeforms
+  path:
+    path: /Audio/_QB/Jukebox/Lifeforms_MONO.ogg
+
+- type: jukebox
+  id: Marhaba
+  name: Ian Alex Mac - Marhaba
+  path:
+    path: /Audio/_QB/Jukebox/Marhaba_MONO.ogg
+
+- type: jukebox
+  id: MassEncounter
+  name: +TEK - Mass Encounter
+  path:
+    path: /Audio/_QB/Jukebox/Mass_Encounter_MONO.ogg
+
+- type: jukebox
+  id: Minute
+  name: Patricia Taxxon - Minute
+  path:
+    path: /Audio/_QB/Jukebox/Minute_MONO.ogg
+
+- type: jukebox
+  id: Nebula
+  name: Phyrnna - Nebula
+  path:
+    path: /Audio/_QB/Jukebox/Nebula_MONO.ogg
+
+- type: jukebox
+  id: NightsOfOrion
+  name: Psirius - Nights of Orion
+  path:
+    path: /Audio/_QB/Jukebox/Nights_of_Orion.xm_MONO.ogg
+
+- type: jukebox
+  id: NymphsOfTheForest
+  name: Psirius - Nymphs of the Forest
+  path:
+    path: /Audio/_QB/Jukebox/Nymphs_of_the_Forest.mptm_MONO.ogg
+
+- type: jukebox
+  id: OrdinaryDaysV2
+  name: Klaus Veen - Ordinary Days V2
+  path:
+    path: /Audio/_QB/Jukebox/Ordinary_Days_V2_MONO.ogg
+
+- type: jukebox
+  id: QuantumBlue
+  name: Storyteller - Quantum Blue
+  path:
+    path: /Audio/_QB/Jukebox/Quantum_Blue_MONO.ogg
+
+- type: jukebox
+  id: RhombusSquare
+  name: Shirakumo Nagi - Rhombus Square
+  path:
+    path: /Audio/_QB/Jukebox/Rhombus_Square_MONO.ogg
+
+- type: jukebox
+  id: SneakyDriver
+  name: Bill Kiley - Sneaky Driver
+  path:
+    path: /Audio/_QB/Jukebox/Sneaky_Driver_MONO.ogg
+
+- type: jukebox
+  id: SpaceIce
+  name: Sauli Korhonen - Space Ice
+  path:
+    path: /Audio/_QB/Jukebox/Space_Ice_MONO.ogg
+
+- type: jukebox
+  id: SpaceTechCoffee
+  name: Sauli Korhonen - Space Tech Coffee
+  path:
+    path: /Audio/_QB/Jukebox/Space_Tech_Coffee_MONO.ogg
+
+- type: jukebox
+  id: Superposition
+  name: Amie Waters - Superposition
+  path:
+    path: /Audio/_QB/Jukebox/Superposition_MONO.ogg
+
+- type: jukebox
+  id: TheCityOfLostHope
+  name: Rocketcat Games - The City of Lost Hope
+  path:
+    path: /Audio/_QB/Jukebox/The_City_Of_Lost_Hope_MONO.ogg
+
+- type: jukebox
+  id: ThirdDistrict
+  name: LudoWic - Third District
+  path:
+    path: /Audio/_QB/Jukebox/Third_District_MONO.ogg
+
+- type: jukebox
+  id: Warsaw
+  name: Pilotredsun - Warsaw
+  path:
+    path: /Audio/_QB/Jukebox/Warsaw_MONO.ogg
+
+- type: jukebox
+  id: WIZARDDISCO
+  name: Louie Zong - WIZARD DISCO
+  path:
+    path: /Audio/_QB/Jukebox/WIZARD_DISCO_MONO.ogg
+
+- type: jukebox
+  id: VsCPU
+  name: Waichiro Ozaki, Hiroshi Tanabe - Vs CPU
+  path:
+    path: /Audio/_QB/Jukebox/Yugioh_Duelist_Vs_CPU_MONO.ogg
+
+- type: jukebox
+  id: VsLancastrians
+  name: Waichiro Ozaki, Hiroshi Tanabe - Vs Lancastrians
+  path:
+    path: /Audio/_QB/Jukebox/Yugioh_Duelist_Vs_Lancastrians_MONO.ogg

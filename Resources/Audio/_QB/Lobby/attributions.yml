@@ -1,16 +1,56 @@
+- files: ["Aggravated.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Aggravated Assault by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=176234"
+
+- files: ["Along_With_Brew.ogg"]
+  license: "Custom"
+  copyright: "Along With Brew by Pilotredsky"
+  source: "https://www.youtube.com/watch?v=qbIAoNR883A"
+
+- files: ["Authentic_Sky.ogg"]
+  license: "Custom"
+  copyright: "Authentic Sky by Satoru Kosaki"
+  source: "https://www.youtube.com/watch?v=3m1a0zw5BGk"
+
 - files: ["Bells_of_Laguna_Bend.ogg"]
   license: "Custom"
   copyright: "Bells of Laguna Bend by Paul Leonard-Morgan"
   source: "https://music.youtube.com/watch?v=aL9D9gU4Jas"
+
+- files: ["Black_Heat.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Black Heat by Ross Bugden"
+  source: "https://soundcloud.com/rossbugden/intense-and-upbeat-electronic-trailer-music-black-heat-copyright-and-royalty-free"
+
+- files: ["Bodybuilder.ogg"]
+  license: "Custom"
+  copyright: "Bodybuilder by Pilotredsun"
+  source: "https://www.youtube.com/watch?v=g0d9B9oL2h0"
+
+- files: ["Chipshop.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Chipshop by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/chipshop"
 
 - files: ["Confederate_Battle.ogg"]
   license: "Custom"
   copyright: "Confederate Battle by MaddieDoktor and PDTM"
   source: "https://music.youtube.com/watch?v=W5cU0a3nXGU"
 
+- files: ["Conundrum.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Conundrum by Midori Mizuno"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=181705"
+
+- files: ["Cyberpunk.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Cyberpunk by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184215"
+
 - files: ["Daydreaming_At_Night.ogg"]
   license: "Custom"
-  copyright: "Datdreaming At Night by FreqGen"
+  copyright: "Daydreaming At Night by FreqGen"
   source: "https://www.klayton.info/freqgen-transmissions-vol-04/"
 
 - files: ["Devil_Fish.ogg"]
@@ -18,15 +58,35 @@
   copyright: "Devil Fish by FreqGen"
   source: "https://www.klayton.info/freqgen-transmissions-vol-04/"
 
+- files: ["Dont_Drink_It.ogg"]
+  license: "Custom"
+  copyright: "Don't Drink It by Pilotredsun"
+  source: "https://www.youtube.com/watch?v=EBFDLgqn8pw"
+
+- files: ["DOS=HIGH_UMB.ogg"]
+  license: "Custom"
+  copyright: "DOS=HIGH, UMB by MASTER BOOT RECORD"
+  source: "https://www.youtube.com/watch?v=TY4TSB0A1HI"
+
 - files: ["Floral_Explore.ogg"]
   license: "Custom"
   copyright: "Floral Explore by PDTM"
   source: "https://music.youtube.com/watch?v=2qbcARnPtJ8"
 
+- files: ["Get_It_Done.ogg"]
+  license: "CC0-1.0"
+  copyright: "Get It Done by A-Guy"
+  source: "https://github.com/A-Guy173/Music/blob/main/getitdone.mp3"
+
 - files: ["Gravity_Well.ogg"]
   license: "Custom"
   copyright: "Gravity Well by FreqGen"
   source: "https://www.klayton.info/freqgen-transmissions-vol-04/"
+
+- files: ["Hackers.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Hackers by Karl Casey @ White Bat Audio"
+  source: "https://www.youtube.com/watch?v=k8nHWwO1U2Q"
 
 - files: ["Leech_Explore.ogg"]
   license: "Custom"
@@ -38,13 +98,52 @@
   copyright: "Lifeforms by FreqGen"
   source: "https://www.klayton.info/freqgen-transmissions-vol-04/"
 
+- files: ["Marhaba.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Marhaba by Ian Alex Mac"
+  source: "https://freemusicarchive.org/music/Ian_Alex_Mac/Cues/Marhaba"
+
+- files: ["Minute.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Minute by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/minute"
+
 - files: ["Nebula.ogg"]
   license: "Custom"
   copyright: "Nebula by Phyrnna"
   source: "https://music.youtube.com/watch?v=9pq77GmN7Xs"
 
-- files: [Pulse_Injector.ogg]
-  license: "Custom"
-  copyright: " Pulse Injector by FreqGen"
-  source: "https://www.klayton.info/freqgen-transmissions-vol-04/"
+- files: ["Nights_of_Orion.xm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nights of Orion by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184962"
 
+- files: ["Nymphs_of_the_Forest.mptm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nymphs of the forest by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=185545"
+
+- files: ["Quantum_Blue.ogg"]
+  license: "Custom"
+  copyright: "Quantum Blue by Storyteller"
+  source: "https://www.youtube.com/watch?v=d3Jdl2a4y-A"
+
+- files: ["Space_Tech_Coffee.ogg"]
+  license: "Custom"
+  copyright: "Space Tech Coffee by Sauli Korhonen"
+  source: "https://www.youtube.com/watch?v=UAsjOUyGrZ0"
+
+- files: ["Superposition.ogg"]
+  license: "CC-BY-NC-3.0"
+  copyright: "Superposition by Amie Waters"
+  source: "https://amiewaters.bandcamp.com/track/superposition-2"
+
+- files: ["The_City_Of_Lost_Hope.ogg"]
+  license: "Custom"
+  copyright: "The City of Lost Hope by Rocketcat Games"
+  source: "https://www.youtube.com/watch?v=LPAuFGGUoBg"
+
+- files: ["Warsaw.ogg"]
+  license: "Custom"
+  copyright: "Warsaw by Pilotredsun"
+  source: "https://www.youtube.com/watch?v=_0PQicdTfO8"
