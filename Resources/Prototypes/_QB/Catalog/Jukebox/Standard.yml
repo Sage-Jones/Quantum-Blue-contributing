@@ -188,13 +188,13 @@
   id: NightsOfOrion
   name: Psirius - Nights of Orion
   path:
-    path: /Audio/_QB/Jukebox/Nights_of_Orion_MONO.ogg
+    path: /Audio/_QB/Jukebox/Nights_of_Orion.xm_MONO.ogg
 
 - type: jukebox
   id: NymphsOfTheForest
   name: Psirius - Nymphs of the Forest
   path:
-    path: /Audio/_QB/Jukebox/Nymphs_of_the_Forest_MONO.ogg
+    path: /Audio/_QB/Jukebox/Nymphs_of_the_Forest.mptm_MONO.ogg
 
 - type: jukebox
   id: OrdinaryDaysV2
@@ -248,7 +248,7 @@
   id: ThirdDistrict
   name: LudoWic - Third District
   path:
-    path: /Audio/_QB/Jukebox/Thrid_District_MONO.ogg
+    path: /Audio/_QB/Jukebox/Third_District_MONO.ogg
 
 - type: jukebox
   id: Warsaw
