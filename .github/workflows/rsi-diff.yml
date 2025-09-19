@@ -3,7 +3,11 @@ name: Diff RSIs
 on:
   pull_request_target:
     paths:
-      - '**.rsi/**.png'
+      - "**.rsi/**.png"
+
+permissions:
+  pull-requests: write
+  contents: read
 
 jobs:
   diff:
@@ -17,7 +21,7 @@ jobs:
         id: files
         uses: Ana06/get-changed-files@v2.3.0
         with:
-          format: 'space-delimited'
+          format: "space-delimited"
           filter: |
             **.rsi
             **.png
@@ -39,7 +43,7 @@ jobs:
         id: fc
         with:
           issue-number: ${{ github.event.number }}
-          comment-author: 'github-actions[bot]'
+          comment-author: "github-actions[bot]"
           body-includes: RSI Diff Bot
 
       - name: Create comment if it doesn't exist
