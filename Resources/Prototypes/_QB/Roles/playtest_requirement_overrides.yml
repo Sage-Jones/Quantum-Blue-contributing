@@ -1,0 +1,222 @@
+# Define job overrides here instead of editing upstream files
+# All jobs are free!
+- type: jobRequirementOverride
+  id: QBPlaytest
+  jobs:
+    # Civilian
+    Bartender:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Boxer:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Chef:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Clown:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Librarian:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Mime:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Musician:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Reporter:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ServiceWorker:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Zookeeper:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Command
+    AdministrativeAssistant:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Captain:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ChiefEngineer:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ChiefMedicalOfficer:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    HeadOfPersonnel:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    HeadOfSecurity:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ResearchDirector: # (MG)
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    StationAi:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Engineering
+    AtmosphericTechnician:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    StationEngineer:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    TechnicalAssistant:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Epistemics
+    Chaplain:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ResearchAssistant:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Scientist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Borg:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Roboticist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Justice
+    ChiefJustice:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Clerk:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Lawyer: # (Attorney)
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Prosecutor:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Logistics
+    Quartermaster: # (LO)
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    SalvageSpecialist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    CargoTechnician:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Medical
+    Chemist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    MedicalIntern:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Paramedic:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Psychologist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    MedicalDoctor:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    MedicalBorg:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Surgeon:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    # Security
+    Brigmedic:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Detective:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    SecurityBorg:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    SecurityCadet:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    SecurityOfficer:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    Warden:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+  antags:
+    SpaceNinja:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    - !type:WhitelistRequirement
+
+    Nukeops:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    NukeopsMedic:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    NukeopsCommander:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    - !type:WhitelistRequirement
+
+    HeadRev:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    Thief:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    Traitor:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    TraitorSleeper:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    Wizard:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    - !type:WhitelistRequirement
+
+    InitialInfected:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    Fugitive:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    ListeningPost:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
+    Recruiter:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    - !type:WhitelistRequirement
+
+    RoboNeuroticist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    - !type:WhitelistRequirement
+
+    SynthesisSpecialist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+
