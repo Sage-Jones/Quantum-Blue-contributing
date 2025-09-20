@@ -1,0 +1,178 @@
+- type: guideEntry
+  id: QuantumBlueRuleset
+  name: guide-entry-quantumblue-rules
+  test: "/ServerInfo/Guidebook/_QB/Rules/QuantumBlueRuleset.xml"
+  priority: -2
+  ruleEntry: true
+  children:
+  - QuantumBlueRuleA1
+  - QuantumBlueRuleA2
+  - QuantumBlueRuleA3
+  - QuantumBlueRuleA4
+  - QuantumBlueRuleA5
+  - QuantumBlueRule1
+  - QuantumBlueRule2
+  - QuantumBlueRule3
+  - QuantumBlueRule4
+  - QuantumBlueRule5
+  - QuantumBlueRule6
+  - QuantumBlueRuleC1
+  - QuantumBlueRuleC2
+  - QuantumBlueRuleS1
+  - QuantumBlueRuleS2
+  - QuantumBlueRuleS3
+  - QuantumBlueRuleS4
+  - QuantumBlueRuleS5
+  - QuantumBlueRuleS6
+  - QuantumBlueRuleS7
+  - QuantumBlueRuleS8
+  - QuantumBlueRuleS9
+  - QuantumBlueRuleS10
+  - QuantumBlueRuleS11
+
+- type: guideEntry
+  id: QuantumBlueRuleA1
+  name: guide-entry-quantumblue-rule-a1
+  text: "/ServerInfo/Guidebook/_QB/Rules/CommunityRules/A1_ERP.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleA2
+  name: guide-entry-quantumblue-rule-a2
+  text: "/ServerInfo/Guidebook/_QB/Rules/CommunityRules/A2_Community.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleA3
+  name: guide-entry-quantumblue-rule-a2
+  text: "/ServerInfo/Guidebook/_QB/Rules/CommunityRules/A3_Streaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleA4
+  name: guide-entry-quantumblue-rule-a4
+  text: "/ServerInfo/Guidebook/_QB/Rules/CommunityRules/A4_Ahelp.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleA5
+  name: guide-entry-quantumblue-rule-a5
+  text: "/ServerInfo/Guidebook/_DV/Rules/CommunityRules/A5_Exploits.xml"
+  ruleEntry: true
+
+
+- type: guideEntry
+  id: QuantumBlueRule1
+  name: guide-entry-quantumblue-rule-1
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/1_Behave.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRule2
+  name: guide-entry-quantumblue-rule-2
+  text: "/ServerInfo/Guidebook/_DV/Rules/GameRules/2_Metagaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRule3
+  name: guide-entry-quantumblue-rule-3
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/3_MetaEtiquette.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRule4
+  name: guide-entry-quantumblue-rule-4
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/4_Powergaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRule5
+  name: guide-entry-quantumblue-rule-5
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/5_Self-antag.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRule6
+  name: guide-entry-quantumblue-rule-6
+  text: "/ServerInfo/Guidebook/_DV/Rules/GameRules/6_Leaving.xml"
+  ruleEntry: true
+
+
+- type: guideEntry
+  id: QuantumBlueRuleC1
+  name: guide-entry-quantumblue-rule-c1
+  text: "/ServerInfo/Guidebook/_DV/Rules/RoleRules/C1_CommandSecurityJustice.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleC2
+  name: guide-entry-quantumblue-rule-c2
+  text: "/ServerInfo/Guidebook/_DV/Rules/RoleRules/C2_Antags.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS1
+  name: guide-entry-quantumblue-rule-s1
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S1_Exceptions.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS2
+  name: guide-entry-quantumblue-rule-s2
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S2_Laws.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS3
+  name: guide-entry-quantumblue-rule-s3
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S3_LawPriority.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS4
+  name: guide-entry-quantumblue-rule-s4
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S4_LawRedefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS5
+  name: guide-entry-quantumblue-rule-s5
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S5_SelfPreservation.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS6
+  name: guide-entry-quantumblue-rule-s6
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S6_FreeSilicon.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS7
+  name: guide-entry-quantumblue-rule-s7
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S7_UnreasonableOrders.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS8
+  name: guide-entry-quantumblue-rule-s8
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S8_Consistency.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS9
+  name: guide-entry-quantumblue-rule-s9
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S9_DefaultCrewDefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS10
+  name: guide-entry-quantumblue-rule-s10
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S10_DefaultHarmDefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: QuantumBlueRuleS11
+  name: guide-entry-quantumblue-rule-s11
+  text: "/ServerInfo/Guidebook/_QB/Rules/SiliconRules/S11_OrderConflicts.xml"
+  ruleEntry: true
+
