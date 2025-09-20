@@ -64,7 +64,7 @@
   - type: AltFireMelee
     attackType: Heavy
   - type: DamageOtherOnHit #for throwing
-    staminaCost: 10
+#    staminaCost: 10 # QB: Commented this out till imp throwing damage is ported
     damage:
       types:
         Blunt: 12
