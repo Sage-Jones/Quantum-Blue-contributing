@@ -178,7 +178,7 @@
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
 
-    Theif:
+    Thief:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
 
