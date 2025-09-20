@@ -16,7 +16,13 @@
     Clown:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
+    Gladiator:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
     Librarian:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    MartialArtist:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
     Mime:
@@ -74,6 +80,9 @@
 
     # Epistemics
     Chaplain:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    ForensicMantis:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
     ResearchAssistant:
@@ -142,6 +151,9 @@
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
     Detective:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
+    PrisonGuard:
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
     SecurityBorg:
@@ -220,3 +232,6 @@
     - !type:OverallPlaytimeRequirement
       time: 0 #for free
 
+    CosmicAntagCultist:
+    - !type:OverallPlaytimeRequirement
+      time: 0 #for free
