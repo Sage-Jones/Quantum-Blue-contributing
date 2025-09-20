@@ -9,6 +9,7 @@
     time: 1800 #0.5 hr
   startingGear: ServiceWorkerGear
   icon: "JobIconServiceWorker"
+  setPreference: false
   supervisors: job-supervisors-service
   access:
   - Service

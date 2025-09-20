@@ -8,6 +8,7 @@
   canBeAntag: false
 #  whitelistRequired: true
   icon: "JobIconPrisoner"
+  setPreference: false
   supervisors: job-supervisors-security
   requirements:
     - !type:DepartmentTimeRequirement

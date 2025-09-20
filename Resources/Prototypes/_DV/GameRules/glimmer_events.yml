@@ -12,7 +12,7 @@
     - id: GlimmerRevenantSpawn
     - id: GlimmerMiteSpawn
     - id: GlimmerRandomSentience
-    #- id: ThavenMoodUpset # Quantum Blue: Thavens removed for now, but leaving the code intact just in case
+    - id: ThavenMoodUpset
     - id: GlimmerRandomAnimation
     - id: PsionicNosebleedEvent
 

@@ -2,3 +2,8 @@
   id: cigarettes
   flavorType: Complex
   description: flavor-complex-cigarettes
+
+- type: flavor
+  id: radiation
+  flavorType: Complex
+  description: flavor-complex-radiation
