@@ -93,7 +93,7 @@
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
     Hiss:
-      collection: ReptillianHiss # Impstation
+      collection: ReptilianHiss # Impstation
     Honk:
       collection: BikeHorn
     Whistle:
@@ -129,7 +129,7 @@
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
     Hiss:
-      collection: ReptillianHiss # Impstation
+      collection: ReptilianHiss # Impstation
     Honk:
       collection: BikeHorn
     Whistle:
