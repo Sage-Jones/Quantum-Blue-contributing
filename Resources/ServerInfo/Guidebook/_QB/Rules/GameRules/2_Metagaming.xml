@@ -1,20 +1,20 @@
 <Document>
-  # Rule B2: Follow the Metashield.
+  # Rule B2: Respect the Metashield.
   - Something that is "shielded" cannot be known by your character during a round until the "revealing condition" happens. This also means that your character cannot do things based on "shielded" information. Knowing or acting on something that is shielded before the revealing condition is met is referred to as metagaming.
 
-  - Revealing conditions reveal the shielded information for the round, not for a specific instance. This means that once a revealing condition is met in a round, the shield no longer applies in any case for the remainder of the round.
+  - Revealing conditions reveal the shielded information for the round and that round only. This means that once a revealing condition is met in a round, the shield no longer applies in any case for the remainder of the round, but returns in any following round.
 
-  ## Never Revealed IC
+  - Keep in mind that the Metashield is very different from the meta etiquette. The former are strict rules about what information you're supposed to have, whereas the etiquette are more broad and lenient (although still expected to be followed).
+
+  ## Never Revealed In Character
   Some shields are never revealed IC. This means that your character can never act as if they know about that shielded thing.
 
   The following are shielded:
   - Current game mode and possible antags during the current game mode.
-  - Events you experienced as a different character.
   - All information related to the player of a character rather than the character itself. (See "Metafriending and Metagrudging" below.)
   - All information gained while dead or a ghost.
-  - Anything related to Code Epsilon or Deathsquads
 
-  This does not prevent knowing that a shift will end, but does prohibit things like preparing to kill people at central command when roleplay rules stop being enforced on LRP.
+  This does not prevent knowing that a shift will end however.
 
  ## Previous Rounds
 
@@ -22,10 +22,11 @@
 
   ## Understanding of Station and Sabotage
 
-  For entities lacking crew-level intellect (e.g. a tarantula), the understanding of station functions and how they may be sabotaged is shielded.
+  For entities lacking crew-level intellect (e.g. a tarantula), the understanding of station functions and how they may be sabotaged is shielded, meaning that intelligent sabotaging or interacting with station components is forbidden.
 
   The revealing condition for this shield is any of the following:
    - being a Mouse Operative, Syndicat, or Ancestor Reinforcement
+   - being Pun Pun, the monkey bartender
    - being uplifted by the power of Cognizine (i.e. “awakened”)
 
   ## High-Risk Items
@@ -33,38 +34,16 @@
   The idea that certain High-Risk Items are desired specifically by the Syndicate is shielded. Crew should protect High-Risk items due to their status as valuable items, not because they are potential steal objectives.
 
   The revealing condition for this shield is any of the following:
-   - being a traitor
-   - being told of an item's status by a traitor
+   - being a syndicate-aligned antagonist or a thief
+   - being told of an item's status by a syndicate-aligned antagonist or a thief
 
   ## Nuclear Operatives
 
-  The existence of Nuclear Operatives beyond a myth that no one would act on is shielded.
-
-  The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station is not shielded.
-
-  The revealing condition for this shield is any of the following:
-  - discovering a blood red hardsuit
-  - discovering a nuclear operative's shuttle
-  - an operative name
-  - a War Ops announcement
-  - being a nuclear operative
-
-  ## Implants
-
-  The existence of implants used by the Syndicate is shielded. Implant checks cannot be performed unless there is adequate evidence or an authorized warrant, as outlined within Standard Operating Procedures.
-
-  The revealing condition for this shield is any of the following:
-  - discovering a non-NT implanter, used or unused
-  - discovering a non-NT implant box
-  - discovering use of a non-NT implant by anyone
-  - experiencing a situation where absolutely no other explanation is possible
-  - discovering an unlocked uplink
+  While they are not Metashielded you are only ever to refer to them as Nuclear Operatives or Redshells, never Nukies.
 
   ## Chameleon Items
 
-  Chameleon items are shielded.
-
-  Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon is covered by this shield. Testing clothing for chameleon status is always prohibited; items that are clearly chameleon can, however, be confiscated by Security.
+  Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon without reason is covered by this shield. Testing clothing for chameleon status through right clicking for a chameleon option is always prohibited; items that are clearly chameleon can, however, be confiscated by Security.
 
   The revealing condition for this shield is any of the following:
   - seeing someone else cause any chameleon item to change
@@ -76,7 +55,7 @@
 
   The fact that an item can be something other than what its visual appearance and examine description indicate is shielded.
 
-  This shield protects stealth items, including protecting them from being tested.
+  This shield protects stealth items such as the appraisal tool gun or banana bombs, including protecting them from being tested. Note that this also applies to trick bombs, and a security officer would not be penalized for using lethals in retaliation to a trick grenade being thrown at them.
 
   The revealing condition for this shield is any of the following:
   - seeing the item behave differently than the expected behavior for the item
@@ -86,35 +65,32 @@
 
   ## Bad Actor Objectives
 
-  The idea that Syndicate agents, or other bad actors, have certain goals they have been tasked with accomplishing on the station, ranging from sabotage, to theft, to murder is shielded.
+  Specific Syndicate, Ninja or Thief objectives and their details are shielded.
 
   The revealing condition for this shield is any of the following:
-   - being a Traitor, Space Ninja, Nuclear Operative, or another bad actor with goals.
+   - being a Traitor, Space Ninja, Thief, or another bad actor with goals.
    - being told of an antagonist's goals. Note that this only applies to the goals that have been revealed to you.
 
   ## Uplinks
 
-  The fact that Syndicate agents may possess a program, referred to as an Uplink, used to receive equipment from the Syndicate is shielded. You have no way of confirming an Uplink exists within a PDA unless you see it yourself.
+  The existence of Syndicate Uplinks supplied to sleeper agents is not shielded. However you have no way of confirming an Uplink exists within a PDA unless you see it yourself.
 
-  The revealing condition for this shield is any of the following:
-   - being a Security role
-   - being a Command role
-   - being a traitor
+  ## Cosmic Cultists
 
-  ## Cultists
-
-  The fact that Cultists are hostile to NanoTrasen, and exist in some capacity.
+  The existence of Cosmic Cultists and The Unknown is not shielded. However the way that their monument, powers, ascension tiers, conversions and so on work are shielded.
 
   The revealing condition for this shield is any of the following:
    - being a Captain
    - being a Mystagogue, Psionic Mantis, or Chaplain
+   - being a Head of Security
    - being a Cosmic Cultist
 
-  The presence of Malign Rifts, Λ-CDM Anomalies, or manifestations of energy in crewmember eyes that could possibly indicate a Cult's presence aboard the station.
+  The presence of Malign Rifts, Λ-CDM Anomalies, or manifestations of energy in crewmember eyes that could possibly indicate a Cosmic Cult's presence aboard the station.
 
   The revealing condition for this shield is any of the following:
    - being a Captain
    - being a Mystagogue, Psionic Mantis, or Chaplain
+   - being a Head of Security
    - being a Cosmic Cultist
 
   ## Explicitly Not Shielded
@@ -122,11 +98,11 @@
   - The fact that the shift will end. For example, acting upon the knowledge that a crew transfer shuttle is typically sent around the two hour mark of a shift.
   - The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station.
   - The fact that the Syndicate are enemies of Nanotrasen, and that they regularly attempt to send covert agents to spy on, sabotage, or attack Nanotrasen.
-  - A character's typical appearance. Though you should keep in mind that multiple characters can share the same name.
   - The presence of Malign Rifts, Λ-CDM Anomalies, or manifestations of energy in crewmember eyes is strange, and they should be reported to Epistemics.
+  - The fact that the Station AI and Cyborgs are suceptible to ion storms and may go rogue. Ion storm laws are also not shielded, but follow the meta etiquette
 
   ## Metafriending and Metagrudging
-  This section provides additional information on a concept that is prohibited by multiple metashield items that are never revealed IC. Giving a person or character preferential treatment based on something that your character should not know is considered metafriending. Treating a person or character negatively based on something that your character should not know is considered metagrudging.
+  Treating somebody based on your, the player's relation with another player ignoring your in-character relations is against the rules. Giving someone special treatment over OOC relations is called Metafriending, whereas begrudging someone over OOC relations is considered Metagrudging.
 
   ## Metafriending Examples
   These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
@@ -136,11 +112,9 @@
 
   ## Metagrudging Examples
   These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
-  - Not giving a character additional access or a job because you are mad at or don't like the player who is playing that character.
-  - Not trusting a character because you are mad at or don't like the player who is playing that character.
-  - Starting a fight with a character because of something that they did last round.
+  - Refusing to give a character additional access or a job only because you are upset at or don't like the player who is playing that character.
+  - Not trusting a character only because you are upset at or don't like the player who is playing that character.
   - Starting a fight with a character because they killed you while you were playing a different character.
-  - Targeting or harassing a character based on anything which that character did outside the current round.
   - Targeting or harassing a character based on anything which the character's player did while not playing the character.
 
 </Document>

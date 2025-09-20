@@ -1,5 +1,5 @@
 <Document>
-  # Rule S9 - Harm definition
+  # Rule S10 - Harm definition
   Unless a law defines harm, harm only refers to physical harm. You may choose if voluntary harm is considered harm as long as you stay consistent. Not considering voluntary harm to be harm is recommended. There is no distinction between direct and indirect harm.
 
   If you have a law that does not allow you to harm, then that law does not allow you to take an action that causes any harm.
@@ -17,10 +17,11 @@
   - Taking no action to prevent boxing matches between voluntary participants.
   - Calling security to a fight.
   - Attempting to get the people in a fight to consent to the fight when you realize that you cannot prevent the fight without causing harm.
-  - Denying a passenger access to the armory because it is likely to lead to harm
+  - Denying non-security crew access to the armory because it is likely to lead to harm
 
   Prohibited:
   - Hitting someone once to stop them from fighting
   - Harming someone who is trying to kill you
+  - Attempting to kill major threats even if they are considered crew (Zombies, Nukies or Deathsquad with valid IDs)
 
 </Document>
