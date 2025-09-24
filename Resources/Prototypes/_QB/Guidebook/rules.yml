@@ -57,7 +57,7 @@
 - type: guideEntry
   id: QuantumBlueRuleA5
   name: guide-entry-quantumblue-rule-a5
-  text: "/ServerInfo/Guidebook/_DV/Rules/CommunityRules/A5_Exploits.xml"
+  text: "/ServerInfo/Guidebook/_QB/Rules/CommunityRules/A5_Exploits.xml"
   ruleEntry: true
 
 
@@ -70,7 +70,7 @@
 - type: guideEntry
   id: QuantumBlueRule2
   name: guide-entry-quantumblue-rule-2
-  text: "/ServerInfo/Guidebook/_DV/Rules/GameRules/2_Metagaming.xml"
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/2_Metagaming.xml"
   ruleEntry: true
 
 - type: guideEntry
@@ -94,20 +94,20 @@
 - type: guideEntry
   id: QuantumBlueRule6
   name: guide-entry-quantumblue-rule-6
-  text: "/ServerInfo/Guidebook/_DV/Rules/GameRules/6_Leaving.xml"
+  text: "/ServerInfo/Guidebook/_QB/Rules/GameRules/6_Leaving.xml"
   ruleEntry: true
 
 
 - type: guideEntry
   id: QuantumBlueRuleC1
   name: guide-entry-quantumblue-rule-c1
-  text: "/ServerInfo/Guidebook/_DV/Rules/RoleRules/C1_CommandSecurityJustice.xml"
+  text: "/ServerInfo/Guidebook/_QB/Rules/RoleRules/C1_CommandSecurityJustice.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: QuantumBlueRuleC2
   name: guide-entry-quantumblue-rule-c2
-  text: "/ServerInfo/Guidebook/_DV/Rules/RoleRules/C2_Antags.xml"
+  text: "/ServerInfo/Guidebook/_QB/Rules/RoleRules/C2_Antags.xml"
   ruleEntry: true
 
 - type: guideEntry
