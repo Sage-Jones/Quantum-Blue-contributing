@@ -136,14 +136,10 @@
 - type: startingGear
   id: MobAghostGear
   equipment:
-    back: ClothingBackpackSatchelHolding
+    back: ClothingBackpackSatchelHoldingAdmin
     id: AdminPDA
-  storage:
-    back:
-    - GasAnalyzer
-    - trayScanner
-    - AccessConfiguratorUniversal
-    - Multitool
+    belt: AdminToolbelt
+    pocket1: BoxFolderAdmin
 
 #Gladiator with spear
 - type: startingGear
