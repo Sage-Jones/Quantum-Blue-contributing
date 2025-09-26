@@ -122,6 +122,9 @@
       collection: Welder
     endSound:
       collection: WelderOff
+  - type: Tag
+    tags:
+      - WeldingTool
 
 - type: entity
   name: industrial welding tool
@@ -190,6 +193,9 @@
         Quantity: 1
   - type: RequiresEyeProtection
     statusEffectTime: 5 # less harmful; sunglasses can block it
+  - type: Tag
+    tags:
+      - WeldingTool
 
 - type: entity
   name: emergency welding tool
@@ -217,6 +223,9 @@
     enabled: false
     radius: 1.0
     color: orange
+  - type: Tag
+    tags:
+      - WeldingTool
 
 - type: entity
   parent: [ Welder, BaseXenoborgContraband ]
@@ -235,3 +244,6 @@
       reagents:
       - ReagentId: WeldingFuel
         Quantity: 0.1
+  - type: Tag
+    tags:
+      - WeldingTool
