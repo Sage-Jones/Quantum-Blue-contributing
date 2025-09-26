@@ -2,13 +2,14 @@
 
 # Hair
 
-- type: marking
-  id: BurqaSolid
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: burqasolid
+# Defined in headcovers.yml already
+#- type: marking
+#  id: BurqaSolid
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: burqasolid
 
 - type: marking
   id: HairFloralLong
@@ -30,21 +31,23 @@
   - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
     state: floralmid2
 
-- type: marking
-  id: HijabFashionable
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: hijabchic
+# Defined in headcovers.yml already
+#- type: marking
+#  id: HijabFashionable
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: hijabchic
 
-- type: marking
-  id: HijabSimple
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: hijabsimple
+# Defined in headcovers.yml already
+#- type: marking
+#  id: HijabSimple
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: hijabsimple
 
 - type: marking
   id: HumanHairFrenchBraid
@@ -160,30 +163,33 @@
   - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
     state: messyponytail
 
-- type: marking
-  id: Niqab
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: niqab
+# Defined in headcovers.yml already
+#- type: marking
+#  id: Niqab
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: niqab
 
-- type: marking
-  id: TichelFashionable
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: tichelfashionable
+# Defined in headcovers.yml already
+#- type: marking
+#  id: TichelFashionable
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: tichelfashionable
 
-- type: marking
-  id: TichelSimple
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
-    state: tichelsimple
+# Defined in headcovers.yml already
+#- type: marking
+#  id: TichelSimple
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+#    state: tichelsimple
 
 - type: marking
   id: HumanHairShaggy

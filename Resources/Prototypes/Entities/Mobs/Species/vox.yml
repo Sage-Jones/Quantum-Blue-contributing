@@ -11,11 +11,6 @@
   - type: Body
     prototype: Vox
     requiredLegs: 2
-  - type:  HumanoidAppearance
-    species: Vox
-    hideLayersOnEquip:
-    - HeadSide #imp
-    #- type: VoxAccent # Not yet coded
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox
@@ -110,6 +105,8 @@
       visible: false
   - type: HumanoidAppearance
     species: Vox
+    hideLayersOnEquip:
+    - HeadSide #imp
     undergarmentTop: UndergarmentTopTanktopVox
     undergarmentBottom: UndergarmentBottomBoxersVox
     markingsDisplacement:
