@@ -1,4 +1,5 @@
-The files below are licensed under CC-BY-SA 4.0 by the author who can be found at https://leonardo-dabepis.tumblr.com/
+The files below are licensed under CC-BY-SA 2.0 by MattFright
+Uses NASA Hubble Space Telescope image found at "https://www.flickr.com/photos/nasahubble/52689698469/"
 
 icon.ico
 icon.svg
