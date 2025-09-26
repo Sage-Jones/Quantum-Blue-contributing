@@ -7,6 +7,7 @@
     atmospherics: AirlockAtmospherics
     basic: Airlock
     cargo: AirlockCargo
+    logistics: AirlockCargo
     chemistry: AirlockChemistry
     command: AirlockCommand
     engineering: AirlockEngineering
@@ -16,6 +17,7 @@
     medical: AirlockMedical
     salvage: AirlockSalvage
     science: AirlockScience
+    epistemics: AirlockScience
     security: AirlockSecurity
     virology: AirlockVirology
 
@@ -28,6 +30,7 @@
     atmospherics: AirlockAtmosphericsGlass
     basic: AirlockGlass
     cargo: AirlockCargoGlass
+    logistics: AirlockCargoGlass
     chemistry: AirlockChemistryGlass
     command: AirlockCommandGlass
     engineering: AirlockEngineeringGlass
@@ -36,5 +39,6 @@
     medical: AirlockMedicalGlass
     salvage: AirlockSalvageGlass
     science: AirlockScienceGlass
+    epistemics: AirlockScienceGlass
     security: AirlockSecurityGlass
     virology: AirlockVirologyGlass
