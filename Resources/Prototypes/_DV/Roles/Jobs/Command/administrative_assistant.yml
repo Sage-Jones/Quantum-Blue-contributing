@@ -32,3 +32,12 @@
   storage:
     back:
     - Flash
+
+- type: chameleonOutfit
+  id: AdministrativeAssistantChameleonOutfit
+  job: AdministrativeAssistant
+  hasMindShield: true
+  equipment:
+    eyes: ClothingEyesHudCommand
+    id: AdminAssistantPDA
+    ears: ClothingHeadsetAdminAssistant

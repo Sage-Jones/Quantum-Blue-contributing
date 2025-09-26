@@ -94033,7 +94033,7 @@ entities:
     - type: Transform
       pos: 22.294851,27.696293
       parent: 2
-- proto: PlushieOni
+- proto: PlushieLizard
   entities:
   - uid: 18811
     components:

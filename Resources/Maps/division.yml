@@ -57684,7 +57684,7 @@ entities:
     - type: Transform
       pos: -11.684595,14.429021
       parent: 2
-- proto: ClothingHeadHatSecretary
+- proto: ClothingHeadHatBeret
   entities:
   - uid: 25742
     components:
@@ -59890,13 +59890,6 @@ entities:
     - type: Transform
       pos: -19.5,-36.5
       parent: 2
-- proto: CrateOilPack
-  entities:
-  - uid: 10050
-    components:
-    - type: Transform
-      pos: 8.5,-19.5
-      parent: 2
 - proto: CratePlastic
   entities:
   - uid: 10051
@@ -60309,7 +60302,7 @@ entities:
     - type: Transform
       pos: -12.5,-9.5
       parent: 2
-- proto: DefaultStationBeaconCommandBar
+- proto: DefaultStationBeaconCommand
   entities:
   - uid: 10112
     components:
@@ -121213,14 +121206,14 @@ entities:
     - type: Transform
       pos: 63.554638,-46.51061
       parent: 2
-- proto: PlushieFelinid
+- proto: PlushieLizard
   entities:
   - uid: 18707
     components:
     - type: Transform
       pos: 64.51298,-45.53076
       parent: 2
-- proto: PlushieFeroxi
+- proto: PlushieLizard
   entities:
   - uid: 18708
     components:
@@ -121239,7 +121232,7 @@ entities:
     - type: Transform
       pos: 64.08298,-48.909393
       parent: 2
-- proto: PlushieHarpy
+- proto: PlushieLizard
   entities:
   - uid: 18711
     components:
@@ -121292,7 +121285,7 @@ entities:
     - type: Transform
       pos: 65.52339,-45.436943
       parent: 2
-- proto: PlushieOni
+- proto: PlushieLizard
   entities:
   - uid: 18719
     components:
@@ -121316,7 +121309,7 @@ entities:
     - type: Transform
       pos: -19.00555,-33.394768
       parent: 2
-- proto: PlushieThaven
+- proto: PlushieLizard
   entities:
   - uid: 18722
     components:

@@ -34,7 +34,6 @@
       enum.SurgeryUIKey.Key: # Shitmed
         type: SurgeryBui
   - type: Sprite
-    scale: 0.9, 0.9
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
       - map: [ "enum.HumanoidVisualLayers.Head" ]
@@ -100,6 +99,8 @@
         - MobMask
         layer:
         - MobLayer
+  - type: ScaleVisuals
+    scale: 0.9, 0.9
   - type: Body
     prototype: Harpy
   - type: Damageable
@@ -159,6 +160,8 @@
   categories: [ HideSpawnMenu ]
   description: A dummy Harpy meant to be used in character setup.
   components:
+  - type: ScaleVisuals
+    scale: 0.9, 0.9
   - type: HumanoidAppearance
     species: Harpy
   - type: Inventory
@@ -170,7 +173,6 @@
             sprite: _DV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
   - type: Sprite
-    scale: 0.9, 0.9
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
       - map: [ "enum.HumanoidVisualLayers.Head" ]
