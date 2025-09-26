@@ -140,13 +140,14 @@
   components:
   - type: Sprite
     sprite: Mobs/Animals/buffrat.rsi
-    scale: 1.2, 1.2
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: regalrat
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
+  - type: ScaleVisuals
+    scale: 1.2, 1.2
   - type: MobState
   - type: MobThresholds
     thresholds:

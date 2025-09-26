@@ -123297,14 +123297,6 @@ entities:
     - type: Transform
       pos: -42.499916,1.5246675
       parent: 2
-- proto: Oilpack
-  entities:
-  - uid: 5373
-    components:
-    - type: Transform
-      parent: 5370
-    - type: Physics
-      canCollide: False
 - proto: Omnitool
   entities:
   - uid: 18638
@@ -125402,7 +125394,7 @@ entities:
     - type: Transform
       pos: 14.510495,-48.52609
       parent: 2
-- proto: PlushieChitinid
+- proto: PlushieLizard
   entities:
   - uid: 18907
     components:
@@ -125661,7 +125653,7 @@ entities:
     - type: Transform
       pos: -27.26317,-51.576443
       parent: 2
-- proto: PlushieThaven
+- proto: PlushieLizard
   entities:
   - uid: 18949
     components:
@@ -151638,9 +151630,6 @@ entities:
         5371:
           position: 4,0
           _rotation: South
-        5373:
-          position: 3,0
-          _rotation: South
         5372:
           position: 1,0
           _rotation: South
@@ -151659,7 +151648,6 @@ entities:
           - 5377
           - 5375
           - 5371
-          - 5373
 - proto: ToolboxArtisticFilled
   entities:
   - uid: 23324

@@ -18,7 +18,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
       sprite: Mobs/Aliens/Xenos/spacetick.rsi
-      scale: 0.8, 0.8
+  - type: ScaleVisuals
+    scale: 0.8, 0.8
   - type: Physics
   - type: MovementSpeedModifier
     baseWalkSpeed : 4
