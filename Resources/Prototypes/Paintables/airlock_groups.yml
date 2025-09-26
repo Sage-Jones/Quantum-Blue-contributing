@@ -13,6 +13,7 @@
     engineering: AirlockEngineering
     freezer: AirlockFreezer
     hydroponics: AirlockHydroponics
+    justice: AirlockJustice
     maintenance: AirlockMaint
     medical: AirlockMedical
     salvage: AirlockSalvage
@@ -35,6 +36,7 @@
     command: AirlockCommandGlass
     engineering: AirlockEngineeringGlass
     hydroponics: AirlockHydroponicsGlass
+    justice: AirlockJusticeGlass
     maintenance: AirlockMaintGlass
     medical: AirlockMedicalGlass
     salvage: AirlockSalvageGlass
