@@ -354,6 +354,9 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         bool visible,
         Entity<HumanoidAppearanceComponent, SpriteComponent> entity)
     {
+        var humanoid = entity.Comp1;
+        var sprite = entity.Comp2;
+
         // FLOOF ADD START
         // make a handy dict of filename -> colors
         // cus we might need to access it by filename to link
