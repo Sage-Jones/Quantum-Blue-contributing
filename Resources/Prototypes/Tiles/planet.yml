@@ -1,7 +1,7 @@
 - type: tile
   id: FloorPlanetDirt
   name: tiles-dirt-floor
-  sprite: /Textures/Tiles/Planet/dirt.rsi/dirt.png
+  sprite: { sprite: /Textures/Tiles/Planet/dirt.rsi, state: dirt }
   variants: 4
   placementVariants:
   - 1.0
