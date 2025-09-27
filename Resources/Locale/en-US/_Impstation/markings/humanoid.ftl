@@ -317,7 +317,7 @@ marking-VitiligoHandR = Vitiligo (Right Hand)
 
 # FacialHair
 
-﻿# Hair
+# Hair
 
 marking-BurqaSolid = Burqa
 
