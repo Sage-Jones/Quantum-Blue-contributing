@@ -1,9 +1,5 @@
 {
     "version": 1,
-<<<<<<<< HEAD:Resources/Textures/Nyanotrasen/Clothing/OuterClothing/Coats/explorer_coat.rsi/meta.json
-========
-    "copyright": "sprited by kipdotnet (GitHub) for Impstation",
->>>>>>>> 350e718db3 (markings standardization and reorganization (#2374)):Resources/Textures/_Impstation/Mobs/Customization/Apid/hair.rsi/meta.json
     "license": "CC-BY-SA-4.0",
     "copyright": "Created by Hyenh#6078 (313846233099927552) ; inhand and icon taken from labcoat.rsi",
     "size": {
@@ -12,7 +8,6 @@
     },
     "states": [
         {
-<<<<<<<< HEAD:Resources/Textures/Nyanotrasen/Clothing/OuterClothing/Coats/explorer_coat.rsi/meta.json
             "name": "icon"
         },
         {
@@ -25,21 +20,6 @@
         },
         {
             "name": "equipped-OUTERCLOTHING",
-========
-            "name": "defaultAntennae",
-            "directions": 4
-        },
-        {
-            "name": "antennaeSad",
-            "directions": 4
-        },
-        {
-            "name": "antennaeForward",
-            "directions": 4
-        },
-        {
-            "name": "antennaeDroopy",
->>>>>>>> 350e718db3 (markings standardization and reorganization (#2374)):Resources/Textures/_Impstation/Mobs/Customization/Apid/hair.rsi/meta.json
             "directions": 4
         }
     ]

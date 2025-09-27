@@ -1264,6 +1264,8 @@
   - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
     state: hijabsimple
 
+- type: marking
+  id: HairFloralLong
   bodyPart: Hair
   markingCategory: Hair
   sprites:

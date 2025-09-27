@@ -1,19 +1,13 @@
 {
     "version": 1,
-<<<<<<<< HEAD:Resources/Textures/Nyanotrasen/Clothing/Belt/mantis_belt.rsi/meta.json
     "license": "CC-BY-SA-4.0",
     "copyright": "Huvy",
-========
-    "license": "CC-BY-SA-3.0",
-    "copyright": "tat1 by widgetbeck, scales and tiger by crocodilecarousel (github)",
->>>>>>>> 350e718db3 (markings standardization and reorganization (#2374)):Resources/Textures/_Impstation/Mobs/Customization/Thaven/larm.rsi/meta.json
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
         {
-<<<<<<<< HEAD:Resources/Textures/Nyanotrasen/Clothing/Belt/mantis_belt.rsi/meta.json
             "name": "icon"
         },
         {
@@ -26,17 +20,6 @@
         },
         {
             "name": "equipped-BELT",
-========
-            "name": "scales",
-            "directions": 4
-        },
-        {
-            "name": "tat1",
-            "directions": 4
-        },
-        {
-            "name": "tiger",
->>>>>>>> 350e718db3 (markings standardization and reorganization (#2374)):Resources/Textures/_Impstation/Mobs/Customization/Thaven/larm.rsi/meta.json
             "directions": 4
         }
     ]

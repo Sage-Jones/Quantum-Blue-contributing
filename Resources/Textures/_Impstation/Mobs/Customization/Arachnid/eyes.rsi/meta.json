@@ -8,22 +8,6 @@
     },
     "states": [
         {
-      		"name": "eyes_round1",
-      		"directions": 4
-    	},
-    	{
-    		"name": "eyes_round2",
-      		"directions": 4
-    	},
-    	{
-      		"name": "eyes_round3",
-      		"directions": 4
-    	},
-    	{
-      		"name": "eyes_round4",
-      		"directions": 4
-    	},
-    	{
             "name": "glow",
             "directions": 4
         },
