@@ -1,0 +1,20 @@
+- type: gameMapPool
+  id: QuantumBlueMapPool
+  maps:
+# DeltaV
+  - Arena
+  - Asterisk
+#  - Byoin - TODO: Fix
+  - Chibi
+  - Division
+  - Edge
+  - Elegance
+  - Glacier
+#  - Hammurabi - undergoing extensive maintenance
+  - Lighthouse
+#  - Micro - to be revisited later ~Colin
+  - Pebble
+  - Shoukou
+#  - Terra - TODO: Fix
+  - Tortuga
+  - TheHive
