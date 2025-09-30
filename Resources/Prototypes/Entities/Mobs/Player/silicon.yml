@@ -58,6 +58,8 @@
         type: CommunicationsConsoleBoundUserInterface
       enum.StoreUiKey.Key: # DeltaV - AI shop system
         type: StoreBoundUserInterface
+      enum.CamWarpUiKey.Key: # Goobstation - AI Camera Jumping
+        type: AiCameraWarpBoundUserInterface
   - type: IntrinsicUI
     uis:
       enum.RadarConsoleUiKey.Key:
@@ -68,6 +70,8 @@
         toggleAction: ActionAGhostShowStationRecords
       enum.CommunicationsConsoleUiKey.Key:
         toggleAction: ActionAGhostShowCommunications
+      enum.CamWarpUiKey.Key: # Goobstation - AI Camera Jumping
+        toggleAction: ActionJumpToCameraGoobstation
   - type: CrewMonitoringConsole
   - type: GeneralStationRecordConsole
   - type: DeviceNetwork

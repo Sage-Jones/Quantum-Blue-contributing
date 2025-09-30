@@ -1201,6 +1201,7 @@
   - HeadofSecurityMantle
   - ScarfRed # DeltaV
   - SecurityPoncho # DeltaV
+  - Bodycam # Goobstation - Body cameras
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1333,6 +1334,7 @@
   loadouts:
   - DetectiveTie
   - ScarfRed # DeltaV
+  - Bodycam # Goobstation - Body cameras
   - SecurityPoncho # DeltaV
 
 - type: loadoutGroup
