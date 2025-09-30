@@ -47,7 +47,7 @@
     - HeadOfSecurity
 
 - type: whitelistTier
-  id: Gold Tier
+  id: GoldTier
   name: Gold Tier
   color: "#e6c200"
   jobs:
