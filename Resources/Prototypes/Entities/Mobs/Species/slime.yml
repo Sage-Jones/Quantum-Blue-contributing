@@ -126,6 +126,17 @@
   - type: FootPrints # DeltaV port from EE, blood splatter
     leftBarePrint: "footprint-left-bare-slime"
     rightBarePrint: "footprint-right-bare-slime"
+  # QB: Blame matt, he thinks its funny
+  - type: MeleeWeapon
+    soundHit:
+      collection: Punch
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 2.5
+        Caustic: 2.5
 
 - type: entity
   parent: MobHumanDummy
