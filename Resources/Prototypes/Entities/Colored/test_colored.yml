@@ -6,5 +6,6 @@
   - type: Sprite
     sprite: Objects/Tools/flashlight.rsi
     state: flashlight
+  - type: Appearance
   - type: Colored
     color: "#50c878"

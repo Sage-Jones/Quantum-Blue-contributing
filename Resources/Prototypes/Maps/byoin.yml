@@ -38,7 +38,6 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Librarian: [ 1, 1 ]
-            ServiceWorker: [ 1, 1 ]
             Boxer: [ 2, 2 ]
           #engineering
             AtmosphericTechnician: [ 2, 2 ]
@@ -66,7 +65,6 @@
             SecurityOfficer: [ 2, 3 ]
             SecurityCadet: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]
-            Prisoner: [ 2, 2 ]
             PrisonGuard: [ 1, 1 ]
           #justice
             Clerk: [ 1, 1 ]

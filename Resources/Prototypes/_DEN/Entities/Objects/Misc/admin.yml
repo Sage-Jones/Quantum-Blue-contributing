@@ -19,7 +19,7 @@
     - state: folder-base
   - type: Item
     sprite: Objects/Misc/folders.rsi
-    size: Small
+    size: Normal
     shape: null
   - type: Storage
     maxItemSize: Normal
@@ -50,9 +50,6 @@
   description: A magical toolbelt that is NOT a bigger chief engineer's toolbelt.
   categories: [ AdminTools ]
   components:
-  - type: Item
-    size: Small
-    shape: null
   - type: StorageFill
     contents:
       - id: AdminRCD
@@ -69,6 +66,7 @@
       - id: GeigerCounter
       - id: AccessConfiguratorUniversal
   - type: Storage
+    maxItemSize: Large
     grid:
     - 0,0,6,3
     whitelist: null

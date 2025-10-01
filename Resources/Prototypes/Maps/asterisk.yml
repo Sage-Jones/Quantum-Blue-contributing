@@ -30,7 +30,6 @@
             Musician: [ 1, 1 ]
             Janitor: [ 1, 2 ]
             Mime: [ 1, 1 ]
-            ServiceWorker: [ 2, 2 ]
           #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 1, 2 ]
