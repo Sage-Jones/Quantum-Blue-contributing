@@ -18,6 +18,9 @@ namespace Content.Server.GameTicking
         [ViewVariables]
         public bool DisallowLateJoin { get; private set; } = false;
 
+        [ViewVariables] // QuantumBlue
+        public bool PauseOnStart { get; private set; } = false; // QuantumBlue
+
         [ViewVariables]
         public string? ServerName { get; private set; }
 
@@ -49,6 +52,7 @@ namespace Content.Server.GameTicking
             }, true);
             Subs.CVar(_cfg, CCVars.GameDummyTicker, value => DummyTicker = value, true);
             Subs.CVar(_cfg, CCVars.GameLobbyDuration, value => LobbyDuration = TimeSpan.FromSeconds(value), true);
+            Subs.CVar(_cfg, CCVars.GamePauseOnStart, value => PauseOnStart = value, true); // QuantumBlue
             Subs.CVar(_cfg, CCVars.GameDisallowLateJoins,
                 value => { DisallowLateJoin = value; UpdateLateJoinStatus(); }, true);
             Subs.CVar(_cfg, CCVars.AdminLogsServerName, value =>

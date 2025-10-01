@@ -23,6 +23,12 @@ public sealed partial class CCVars
     public static readonly CVarDef<int>
         GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE);
 
+    /// <summary> // QuantumBlue
+    ///     If true, the lobby countdown will start paused on server startup.
+    /// </summary>
+    public static readonly CVarDef<bool>
+        GamePauseOnStart = CVarDef.Create("game.pauseonstart", false, CVar.ARCHIVE | CVar.SERVERONLY); // QuantumBlue
+
     /// <summary>
     ///     Controls if players can latejoin at all.
     /// </summary>

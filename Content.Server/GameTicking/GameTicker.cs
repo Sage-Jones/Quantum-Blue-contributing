@@ -111,6 +111,11 @@ namespace Content.Server.GameTicking
             if (!DummyTicker)
                 RestartRound();
 
+            // QuantumBlue - Pause countdown on server startup if configured
+            if (PauseOnStart && LobbyEnabled)
+                PauseStart(true);
+            // End QuantumBlue
+
             _postInitialized = true;
         }
 
