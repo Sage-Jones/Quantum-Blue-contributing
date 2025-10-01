@@ -46,7 +46,6 @@
             Detective: [ 1, 1 ]
             Gladiator: [ 2, 2 ]
             HeadOfSecurity: [ 1, 1 ]
-            Prisoner: [ 2, 3 ]
             PrisonGuard: [ 2, 2 ]
             SecurityOfficer: [ 6, 8 ]
             SecurityCadet: [ 2, 4 ]
@@ -64,7 +63,6 @@
             Mime: [ 1, 2 ]
             Musician: [ 2, 3 ]
             Reporter: [ 2, 2 ]
-            ServiceWorker: [ 2, 3 ]
             Zookeeper: [ 1, 1 ]
           #science
             Chaplain: [ 1, 1 ]

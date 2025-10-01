@@ -23,7 +23,6 @@
           #Service
             HeadOfPersonnel: [ 1, 1 ]
             Librarian: [ 1, 1 ]
-            ServiceWorker: [ 1, 2 ]
             Reporter: [ 1, 1 ]
             Bartender: [ 1, 2 ]
             Botanist: [ 1, 2 ]
@@ -59,7 +58,6 @@
             Brigmedic: [ 1, 1 ]
             SecurityOfficer: [ 2, 4 ]
             SecurityCadet: [ 1, 3 ]
-            Prisoner: [ 2, 2 ]
           #Science
             ResearchDirector: [ 1, 1 ]
             Roboticist: [ 1, 1 ]

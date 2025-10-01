@@ -33,7 +33,6 @@
           Librarian: [ 1, 1 ]
           Reporter: [ 2, 2 ]
           Musician: [ 1, 1 ]
-          ServiceWorker: [ 2, 2]
           Janitor: [ 2, 2 ]
           Mime: [ 1, 1 ]
         #engineering
@@ -69,7 +68,6 @@
           SecurityOfficer: [ 2, 4 ]
           SecurityCadet: [ 1, 4 ]
           Brigmedic: [ 1, 1 ]
-          Prisoner: [ 2, 3 ]
         #logistics
           Quartermaster: [ 1, 1 ]
           Courier: [ 2, 2 ]
