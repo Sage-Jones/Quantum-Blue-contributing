@@ -516,6 +516,13 @@
         volume: -6
     Salute:
       collection: Salutes
+    Crack: # Imp addition
+      collection: Cracks
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -533,6 +540,13 @@
       path: /Audio/Voice/Diona/diona_salute.ogg
       params:
        volume: -5
+    Crack: # Imp addition
+      collection: Cracks
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -551,6 +565,13 @@
         volume: -6
     Salute:
       collection: Salutes
+    Crack: # Imp addition
+      collection: Cracks
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 # mobs
 - type: emoteSounds
